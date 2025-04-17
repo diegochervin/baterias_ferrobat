@@ -6,6 +6,8 @@ import bateriasData from './data/baterias';
 import Footer from './components/Footer'
 import AsideFiltros from './components/AsideFiltros';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { normalizarProductos } from './utils/normalizar';
+
 
 
 function App() {
@@ -14,6 +16,7 @@ function App() {
   const [filtroMarca, setFiltroMarca] = useState('');
   const [filtroStock, setFiltroStock] = useState('');
   const [orden, setOrden] = useState('');
+  
   const bateriasFiltradas = useMemo(() => {
     let filtradas = [...baterias];
   
@@ -59,7 +62,8 @@ function App() {
   
 
   useEffect(() => {
-    setBaterias(bateriasData);
+    const bateriasNormalizadas = normalizarProductos(bateriasData);
+  setBaterias(bateriasNormalizadas);
   }, []);
 
   const marcas = useMemo(() => {

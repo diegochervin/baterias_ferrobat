@@ -17,7 +17,8 @@ const productos = [
       precio: 145000,
       stock: 10,
       imagen: "https://github.com/diegochervin/programacionweb123/blob/main/public/static/img/m20gd.jpg?raw=true",
-      categoria: "auto"
+      categoria: "auto",
+      tamaño: "12 ML"
     },
     {
       id: 3,
@@ -48,7 +49,7 @@ const productos = [
     },
     {
       id: 6,
-      marca: "Moura",
+      marca: "moura",
       modelo: "M22GD",
       precio: 165000,
       stock: 10,
