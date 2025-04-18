@@ -16,9 +16,7 @@ const AsideFiltros = ({
     <aside
   className="p-3 border-end"
   style={{
-    width: '300px',         // Ancho fijo (ajustalo si querés)
-    minWidth: '300px',      // Para evitar que se encoja
-    flexShrink: 0           // No se achique si el espacio es chico
+
   }}
 >
       <h4 className="mb-3">🔎 Filtros</h4>

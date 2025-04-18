@@ -1,8 +1,8 @@
 import { useState, useEffect, useMemo  } from 'react';
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import ListaBaterias from './components/ListaBaterias';
-import bateriasData from './data/baterias';
+import ListaProductos from './components/ListaProductos';
+import productosData from './data/productos';
 import Footer from './components/Footer'
 import AsideFiltros from './components/AsideFiltros';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -11,19 +11,19 @@ import { normalizarProductos } from './utils/normalizar';
 
 
 function App() {
-  const [baterias, setBaterias] = useState([]);
+  const [productos, setProductos] = useState([]);
   const [busqueda, setBusqueda] = useState('');
   const [filtroMarca, setFiltroMarca] = useState('');
   const [filtroStock, setFiltroStock] = useState('');
   const [orden, setOrden] = useState('');
   
-  const bateriasFiltradas = useMemo(() => {
-    let filtradas = [...baterias];
+  const productosFiltrados = useMemo(() => {
+    let filtrados = [...productos];
   
     // Buscar por texto
     if (busqueda.trim() !== '') {
       const texto = busqueda.toLowerCase();
-      filtradas = filtradas.filter(bat =>
+      filtrados = filtrados.filter(bat =>
         bat.marca.toLowerCase().includes(texto) ||
         bat.modelo.toLowerCase().includes(texto)
       );
@@ -31,45 +31,45 @@ function App() {
   
     // Filtro por marca
     if (filtroMarca !== '') {
-      filtradas = filtradas.filter(bat => bat.marca === filtroMarca);
+      filtrados = filtrados.filter(bat => bat.marca === filtroMarca);
     }
   
     // Filtro por stock
     if (filtroStock === 'S') {
-      filtradas = filtradas.filter(bat => bat.stock > 0);
+      filtrados = filtrados.filter(bat => bat.stock > 0);
     }
   
     // Ordenamiento
     switch (orden) {
       case 'alfabetoAZ':
-        filtradas.sort((a, b) => a.modelo.localeCompare(b.modelo));
+        filtrados.sort((a, b) => a.modelo.localeCompare(b.modelo));
         break;
       case 'alfabetoZA':
-        filtradas.sort((a, b) => b.modelo.localeCompare(a.modelo));
+        filtrados.sort((a, b) => b.modelo.localeCompare(a.modelo));
         break;
       case 'preciomenor':
-        filtradas.sort((a, b) => a.precio - b.precio);
+        filtrados.sort((a, b) => a.precio - b.precio);
         break;
       case 'preciomayor':
-        filtradas.sort((a, b) => b.precio - a.precio);
+        filtrados.sort((a, b) => b.precio - a.precio);
         break;
       default:
         break;
     }
   
-    return filtradas;
-  }, [baterias, busqueda, filtroMarca, filtroStock, orden]);
+    return filtrados;
+  }, [productos, busqueda, filtroMarca, filtroStock, orden]);
   
 
   useEffect(() => {
-    const bateriasNormalizadas = normalizarProductos(bateriasData);
-  setBaterias(bateriasNormalizadas);
+    const bateriasNormalizadas = normalizarProductos(productosData);
+  setProductos(bateriasNormalizadas);
   }, []);
 
   const marcas = useMemo(() => {
-    const todas = baterias.map(b => b.marca);
+    const todas = productos.map(b => b.marca);
     return [...new Set(todas)].sort();
-  }, [baterias]);
+  }, [productos]);
 
   
   return (
@@ -99,7 +99,7 @@ function App() {
   
         {/* Contenedor de tarjetas que ocupa el resto del espacio */}
         <div className="flex-grow-1 " style={{ overflow: 'hidden' }}>
-          <ListaBaterias baterias={bateriasFiltradas} />
+          <ListaProductos baterias={productosFiltrados} />
         </div>
       </div>
   
