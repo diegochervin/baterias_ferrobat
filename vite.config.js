@@ -1,8 +1,8 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
+// 👇 importante: base igual al nombre del repo
 export default defineConfig({
-  base: '/baterias_ferrobat/',
   plugins: [react()],
+  base: '/baterias_ferrobat/',
 })

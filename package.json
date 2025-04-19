@@ -1,6 +1,7 @@
 {
   "name": "baterias_ferrobat",
   "private": true,
+  "homepage": "https://diegochervin.github.io/baterias_ferrobat",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
