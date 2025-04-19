@@ -18,8 +18,9 @@ const CardProducto = ({ producto }) => {
         src={producto.foto}
         alt={producto.nombre || "Producto"}
         style={{
-          height: "200px",
-          objectFit: "cover",
+            height: "200px",
+            width: "100%",
+            objectFit: "contain",
         }}
       />
       <Card.Body className="d-flex flex-column">
