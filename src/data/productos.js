@@ -1,6 +1,7 @@
 // productos.js
 
-const productos = [
+const productos = 
+[
   {
     "id": 1,
     "marca": "Afnan",
@@ -9,7 +10,7 @@ const productos = [
     "precio": "63",
     "foto": "https://fimgs.net/mdimg/perfume/375x500.78611.jpg",
     "stock": 10,
-    "descripcion": "9am Dive�de�Afnan�es una fragancia de la familia olfativa Arom�tica Acu�tica para Hombres y Mujeres. Esta fragrancia es nueva.�9am Dive�se lanz� en 2022. Las Notas de Salida son lim�n (lima �cida), menta, grosellas negras y pimienta rosa; las Notas de Coraz�n son manzana, incienso y cedro; las Notas de Fondo son jengibre, s�ndalo, jazm�n y pachul�."
+    
   },
   {
     "id": 2,
@@ -19,7 +20,7 @@ const productos = [
     "precio": "71",
     "foto": "https://fimgs.net/mdimg/perfume/375x500.99238.jpg",
     "stock": 10,
-    "descripcion": "9 PM Rebel�de�Afnan�es una fragancia de la familia olfativa Arom�tica Frutal para Hombres y Mujeres. Esta fragrancia es nueva.�9 PM Rebel�se lanz� en 2024. La Nariz detr�s de esta fragrancia es Ga�l Montero. Las Notas de Salida son pi�a, manzana Granny Smith y mandarina; las Notas de Coraz�n son musgo de roble, vainilla y cedro; las Notas de Fondo son �mbar gris, Madera seca, almizcle y caramelo."
+    
   },
   {
     "id": 3,
@@ -29,7 +30,7 @@ const productos = [
     "precio": "57",
     "foto": "https://fimgs.net/mdimg/perfume/375x500.65414.jpg",
     "stock": 10,
-    "descripcion": "9pm�de�Afnan�es una fragancia de la familia olfativa Oriental Vainilla para Hombres.�9pm�se lanz� en 2020. Las Notas de Salida son manzana, canela, lavanda silvestre y bergamota; las Notas de Coraz�n son flor de azahar del naranjo y lirio de los valles (muguete); las Notas de Fondo son vainilla, haba tonka, �mbar y pachul�."
+    
   },
   {
     "id": 4,
@@ -39,7 +40,7 @@ const productos = [
     "precio": "67",
     "foto": "https://fimgs.net/mdimg/perfume/375x500.27352.jpg",
     "stock": 10,
-    "descripcion": "Supremacy Silver�de�Afnan�es una fragancia de la familia olfativa Almizcle Amaderado Floral para Hombres.�Supremacy Silver�se lanz� en 2013. Las Notas de Salida son pi�a, grosellas negras, bergamota y manzana; las Notas de Coraz�n son abedul, pachul�, jazm�n de Marruecos y rosa; las Notas de Fondo son almizcle, musgo de roble, �mbar gris y vainilla."
+    
   },
   {
     "id": 5,
@@ -49,7 +50,7 @@ const productos = [
     "precio": "78",
     "foto": "https://fimgs.net/mdimg/perfume/375x500.68271.jpg",
     "stock": 10,
-    "descripcion": "Supremacy Not Only Intense�de�Afnan�es una fragancia de la familia olfativa Oriental Especiada para Hombres.�Supremacy Not Only Intense�se lanz� en 2021. Las Notas de Salida son grosellas negras, bergamota y manzana; las Notas de Coraz�n son musgo de roble, pachul� y lavanda; las Notas de Fondo son �mbar gris, almizcle y azafr�n."
+    
   },
   {
     "id": 6,
@@ -59,7 +60,7 @@ const productos = [
     "precio": "69",
     "foto": "https://fimgs.net/mdimg/perfume/375x500.70839.jpg",
     "stock": 10,
-    "descripcion": "Turathi Blue�de�Afnan�es una fragancia de la familia olfativa Arom�tica Acu�tica para Hombres.�Turathi Blue�se lanz� en 2021. La Nota de Salida es c�tricos; las Notas de Coraz�n son �mbar y notas amaderadas; las Notas de Fondo son almizcle, especias y pachul�."
+    
   },
   {
     "id": 7,
@@ -69,7 +70,7 @@ const productos = [
     "precio": "176",
     "foto": "https://picsum.photos/300/200?Random=9",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 8,
@@ -79,7 +80,7 @@ const productos = [
     "precio": "114",
     "foto": "https://fimgs.net/mdimg/perfume/375x500.83035.jpg",
     "stock": 10,
-    "descripcion": "Amber Oud Black Edition�de�Al Haramain Perfumes�es una fragancia de la familia olfativa para Hombres y Mujeres. Esta fragrancia es nueva.�Amber Oud Black Edition�se lanz� en 2023. Las Notas de Salida son cardamomo, lavanda y toronja (pomelo); las Notas de Coraz�n son cuero, �mbar y flor de azahar del naranjo; las Notas de Fondo son �mbar gris, benju� y vetiver."
+    
   },
   {
     "id": 9,
@@ -89,7 +90,7 @@ const productos = [
     "precio": "114",
     "foto": "https://fimgs.net/mdimg/perfume/375x500.51816.jpg",
     "stock": 10,
-    "descripcion": "Amber Oud Gold Edition�de�Al Haramain Perfumes�es una fragancia de la familia olfativa Oriental Vainilla para Hombres y Mujeres.�Amber Oud Gold Edition�se lanz� en 2018. Las Notas de Salida son bergamota y notas verdes; las Notas de Coraz�n son notas dulces, mel�n, pi�a y �mbar; las Notas de Fondo son almizcle, vainilla y notas amaderadas."
+    
   },
   {
     "id": 10,
@@ -99,7 +100,7 @@ const productos = [
     "precio": "78",
     "foto": "https://fimgs.net/mdimg/perfume/375x500.51816.jpg",
     "stock": 10,
-    "descripcion": "Amber Oud Gold Edition�de�Al Haramain Perfumes�es una fragancia de la familia olfativa Oriental Vainilla para Hombres y Mujeres.�Amber Oud Gold Edition�se lanz� en 2018. Las Notas de Salida son bergamota y notas verdes; las Notas de Coraz�n son notas dulces, mel�n, pi�a y �mbar; las Notas de Fondo son almizcle, vainilla y notas amaderadas."
+    
   },
   {
     "id": 11,
@@ -109,7 +110,7 @@ const productos = [
     "precio": "119",
     "foto": "https://fimgs.net/mdimg/perfume/375x500.96482.jpg",
     "stock": 10,
-    "descripcion": "Amber Oud Aqua Dubai�de�Al Haramain Perfumes�es una fragancia de la familia olfativa Arom�tica Frutal para Hombres y Mujeres. Esta fragrancia es nueva.�Amber Oud Aqua Dubai�se lanz� en 2024. Las Notas de Salida son bergamota, notas verdes y mandarina; las Notas de Coraz�n son �mbar, mel�n, grosellas negras y pi�a; las Notas de Fondo son almizcle, petit grain, g�lbano y vainilla."
+    
   },
   {
     "id": 12,
@@ -119,7 +120,7 @@ const productos = [
     "precio": "176",
     "foto": "https://picsum.photos/300/200?Random=14",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 13,
@@ -129,7 +130,7 @@ const productos = [
     "precio": "119",
     "foto": "https://fimgs.net/mdimg/perfume/375x500.96481.jpg",
     "stock": 10,
-    "descripcion": "Amber Oud Dubai Night�de�Al Haramain Perfumes�es una fragancia de la familia olfativa Oriental Amaderada para Hombres. Esta fragrancia es nueva.�Amber Oud Dubai Night�se lanz� en 2024. Las Notas de Salida son azafr�n, bergamota y elem�; las Notas de Coraz�n son madera de oud, rosa de Bulgaria (rosa Damascena de Bulgaria) y lirio de los valles (muguete); las Notas de Fondo son haba tonka, �mbar, almizcle blanco y musgo de roble."
+    
   },
   {
     "id": 14,
@@ -139,7 +140,7 @@ const productos = [
     "precio": "143",
     "foto": "https://fimgs.net/mdimg/perfume/375x500.78612.jpg",
     "stock": 10,
-    "descripcion": "Amber Oud Gold Edition Extreme Pure Perfume�de�Al Haramain Perfumes�es una fragancia de la familia olfativa Oriental Amaderada para Hombres y Mujeres. Esta fragrancia es nueva.�Amber Oud Gold Edition Extreme Pure Perfume�se lanz� en 2022. Las Notas de Salida son bergamota y notas verdes; las Notas de Coraz�n son notas dulces, mel�n, pi�a, cedro y �mbar; las Notas de Fondo son notas amaderadas, mirra, almizcle y vainilla."
+    
   },
   {
     "id": 15,
@@ -149,7 +150,7 @@ const productos = [
     "precio": "108",
     "foto": "https://fimgs.net/mdimg/perfume/375x500.83046.jpg",
     "stock": 10,
-    "descripcion": "Amber Oud Private Edition�de�Al Haramain Perfumes�es una fragancia de la familia olfativa para Hombres y Mujeres. Esta fragrancia es nueva.�Amber Oud Private Edition�se lanz� en 2023. Las Notas de Salida son bergamota y notas verdes; las Notas de Coraz�n son mel�n, notas dulces, �mbar, pi�a y cedro; las Notas de Fondo son resinas, mirra, almizcle, notas amaderadas y vainilla."
+    
   },
   {
     "id": 16,
@@ -159,7 +160,7 @@ const productos = [
     "precio": "117",
     "foto": "https://fimgs.net/mdimg/perfume/375x500.83053.jpg",
     "stock": 10,
-    "descripcion": "Rouge�de�Al Haramain Perfumes�es una fragancia de la familia olfativa para Hombres y Mujeres. Esta fragrancia es nueva.�Rouge�se lanz� en 2023. Las Notas de Salida son azafr�n y jazm�n; las Notas de Coraz�n son Amberwood y �mbar gris; las Notas de Fondo son cedro y resina de abeto."
+    
   },
   {
     "id": 17,
@@ -169,7 +170,7 @@ const productos = [
     "precio": "127",
     "foto": "https://picsum.photos/300/200?Random=19",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 18,
@@ -179,7 +180,7 @@ const productos = [
     "precio": "78",
     "foto": "https://fimgs.net/mdimg/perfume/375x500.92657.jpg",
     "stock": 10,
-    "descripcion": "Haramain Detour Eco�de�Al Haramain Perfumes�es una fragancia de la familia olfativa Oriental Amaderada para Hombres y Mujeres. Esta fragrancia es nueva.�Haramain Detour Eco�se lanz� en 2024. Las Notas de Salida son lavanda, bergamota y esclarea; las Notas de Coraz�n son azafr�n y pralin�; las Notas de Fondo son madera de oud y cedro."
+    
   },
   {
     "id": 19,
@@ -189,7 +190,7 @@ const productos = [
     "precio": "78",
     "foto": "https://fimgs.net/mdimg/perfume/375x500.92659.jpg",
     "stock": 10,
-    "descripcion": "Detour Noir Exclusif�de�Al Haramain Perfumes�es una fragancia de la familia olfativa Oriental Floral para Hombres y Mujeres. Esta fragrancia es nueva.�Detour Noir Exclusif�se lanz� en 2024. Las Notas de Salida son almendra, mandarina, notas acuosas y bergamota; las Notas de Coraz�n son algalia (civet), geranio, rosa, nen�far (lirio de agua) y gardenia; las Notas de Fondo son Oud laosiano, madera de gaiac, vainilla, hojas de pachul� de Indonesia, s�ndalo, �mbar, caf�, pimienta rosa y musgo de roble."
+    
   },
   {
     "id": 20,
@@ -199,7 +200,7 @@ const productos = [
     "precio": "78",
     "foto": "https://fimgs.net/mdimg/perfume/375x500.92658.jpg",
     "stock": 10,
-    "descripcion": "Detour Noir Intense�de�Al Haramain Perfumes�es una fragancia de la familia olfativa Oriental Amaderada para Hombres y Mujeres. Esta fragrancia es nueva.�Detour Noir Intense�se lanz� en 2024. Las Notas de Salida son cardamomo, heliotropo, pimienta rosa y bergamota; las Notas de Coraz�n son almendra amarga, lavanda, jazm�n y geranio; las Notas de Fondo son madera de oud, vainilla, �mbar, s�ndalo y madera de gaiac."
+    
   },
   {
     "id": 21,
@@ -209,7 +210,7 @@ const productos = [
     "precio": "55",
     "foto": "https://fimgs.net/mdimg/perfume/375x500.70748.jpg",
     "stock": 10,
-    "descripcion": "D�tour Noir�de�Al Haramain Perfumes�es una fragancia de la familia olfativa Oriental Especiada para Hombres y Mujeres.�D�tour Noir�se lanz� en 2021. Las Notas de Salida son manzana, jazm�n, lavanda y violeta; las Notas de Coraz�n son vainilla, pachul�, bergamota y mandarina; las Notas de Fondo son s�ndalo, cardamomo, madera de gaiac, pimienta y geranio."
+    
   },
   {
     "id": 22,
@@ -219,7 +220,7 @@ const productos = [
     "precio": "78",
     "foto": "https://fimgs.net/mdimg/perfume/375x500.78107.jpg",
     "stock": 10,
-    "descripcion": "D�tour Rouge�de�Al Haramain Perfumes�es una fragancia de la familia olfativa C�trica para Hombres y Mujeres. Esta fragrancia es nueva.�D�tour Rouge�se lanz� en 2022. Las Notas de Salida son lavanda, cardamomo y bergamota; las Notas de Coraz�n son tabaco, t� negro y violeta; las Notas de Fondo son almizcle, haba tonka y cedro."
+    
   },
   {
     "id": 23,
@@ -229,7 +230,7 @@ const productos = [
     "precio": "117",
     "foto": "https://fimgs.net/mdimg/perfume/375x500.99977.jpg",
     "stock": 10,
-    "descripcion": "Amber Oud Gold 999.9 Dubai Edition�de�Al Haramain Perfumes�es una fragancia de la familia olfativa Floral Frutal Gourmand para Hombres y Mujeres. Esta fragrancia es nueva.�Amber Oud Gold 999.9 Dubai Edition�se lanz� en 2024. Las Notas de Salida son naranja, pera, bergamota y lim�n (lima �cida); las Notas de Coraz�n son caramelo, mel�n, pera, manzana verde, cardamomo y jazm�n; las Notas de Fondo son �mbar, vainilla, pachul� y cedro."
+    
   },
   {
     "id": 24,
@@ -239,7 +240,7 @@ const productos = [
     "precio": "137",
     "foto": "https://fimgs.net/mdimg/perfume/375x500.73208.jpg",
     "stock": 10,
-    "descripcion": "Amber Oud Ruby Edition�de�Al Haramain Perfumes�es una fragancia de la familia olfativa para Hombres y Mujeres. Esta fragrancia es nueva.�Amber Oud Ruby Edition�se lanz� en 2022. Las Notas de Salida son azafr�n y almendra amarga; las Notas de Coraz�n son cedro y jazm�n egipcio; las Notas de Fondo son �mbar gris, notas amaderadas y almizcle"
+    
   },
   {
     "id": 25,
@@ -249,7 +250,7 @@ const productos = [
     "precio": "88",
     "foto": "https://fimgs.net/mdimg/perfume/375x500.55791.jpg",
     "stock": 10,
-    "descripcion": "Amber Oud Tobacco Edition�de�Al Haramain Perfumes�es una fragancia de la familia olfativa Oriental Especiada para Hombres y Mujeres.�Amber Oud Tobacco Edition�se lanz� en 2019. Las Notas de Salida son hojas de tabaco, canela, jengibre y pimienta negra; las Notas de Coraz�n son vainilla, clavos de olor, an�s estrellado, haba tonka, cacao y incienso; las Notas de Fondo son tabaco, frutos secos y notas amaderadas."
+    
   },
   {
     "id": 26,
@@ -259,7 +260,7 @@ const productos = [
     "precio": "147",
     "foto": "https://fimgs.net/mdimg/perfume/375x500.78612.jpg",
     "stock": 10,
-    "descripcion": "Amber Oud Gold Edition Extreme Pure Perfume�de�Al Haramain Perfumes�es una fragancia de la familia olfativa Oriental Amaderada para Hombres y Mujeres. Esta fragrancia es nueva.�Amber Oud Gold Edition Extreme Pure Perfume�se lanz� en 2022. Las Notas de Salida son bergamota y notas verdes; las Notas de Coraz�n son notas dulces, mel�n, pi�a, cedro y �mbar; las Notas de Fondo son notas amaderadas, mirra, almizcle y vainilla."
+    
   },
   {
     "id": 27,
@@ -269,7 +270,7 @@ const productos = [
     "precio": "69",
     "foto": "https://fimgs.net/mdimg/perfume/375x500.51820.jpg",
     "stock": 10,
-    "descripcion": "L'Aventure Femme�de�Al Haramain Perfumes�es una fragancia de la familia olfativa Floral Frutal para Mujeres.�L'Aventure Femme�se lanz� en 2017. Las Notas de Salida son pi�a, grosellas negras, bergamota y bayas silvestres; las Notas de Coraz�n son cedro, fresia y rosa; las Notas de Fondo son almizcle, s�ndalo, �mbar y vainilla."
+    
   },
   {
     "id": 28,
@@ -279,7 +280,7 @@ const productos = [
     "precio": "69",
     "foto": "https://picsum.photos/300/200?Random=30",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 29,
@@ -289,7 +290,7 @@ const productos = [
     "precio": "98",
     "foto": "https://fimgs.net/mdimg/perfume/375x500.31661.jpg",
     "stock": 10,
-    "descripcion": "Ari�de�Ariana Grande�es una fragancia de la familia olfativa Floral Frutal Gourmand para Mujeres.�Ari�se lanz� en 2015. Las Notas de Salida son frambuesa, pera y toronja (pomelo); las Notas de Coraz�n son orqu�dea de vainilla, rosa y lirio de los valles (muguete); las Notas de Fondo son malvavisco (bomb�n), almizcle y notas amaderadas."
+    
   },
   {
     "id": 30,
@@ -299,7 +300,7 @@ const productos = [
     "precio": "127",
     "foto": "https://fimgs.net/mdimg/perfume/375x500.50384.jpg",
     "stock": 10,
-    "descripcion": "Cloud�de�Ariana Grande�es una fragancia de la familia olfativa Floral Frutal Gourmand para Mujeres.�Cloud�se lanz� en 2018. La Nariz detr�s de esta fragrancia es Clement Gavarry. Las Notas de Salida son lavanda, pera y bergamota; las Notas de Coraz�n son crema batida, coco, pralin� y orqu�dea de vainilla; las Notas de Fondo son almizcle y notas amaderadas."
+    
   },
   {
     "id": 31,
@@ -309,7 +310,7 @@ const productos = [
     "precio": "98",
     "foto": "https://fimgs.net/mdimg/perfume/375x500.56741.jpg",
     "stock": 10,
-    "descripcion": "Thank U, Next�de�Ariana Grande�es una fragancia de la familia olfativa Floral Frutal Gourmand para Mujeres.�Thank U, Next�se lanz� en 2019. La Nariz detr�s de esta fragrancia es J�r�me Epinette. Las Notas de Salida son frambuesa y pera; las Notas de Coraz�n son coco y rosa rosada; las Notas de Fondo son macarrones dulces y almizcle."
+    
   },
   {
     "id": 32,
@@ -319,7 +320,7 @@ const productos = [
     "precio": "73",
     "foto": "https://fimgs.net/mdimg/perfume/375x500.77860.jpg",
     "stock": 10,
-    "descripcion": "Club De Nuit Urban Elixir�de�Armaf�es una fragancia de la familia olfativa para Hombres. Esta fragrancia es nueva.�Club De Nuit Urban Elixir�se lanz� en 2022. Las Notas de Salida son bergamota, pimienta rosa, flor de azahar del naranjo y jazm�n; las Notas de Coraz�n son lavanda, elem�, geranio, vetiver, azafr�n y cempas�chil (tagete, clavel�n); las Notas de Fondo son ambroxan, �mbar, cedro, pachul� y l�dano."
+    
   },
   {
     "id": 33,
@@ -329,7 +330,7 @@ const productos = [
     "precio": "15",
     "foto": "https://picsum.photos/300/200?Random=35",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 34,
@@ -339,7 +340,7 @@ const productos = [
     "precio": "57",
     "foto": "https://picsum.photos/300/200?Random=36",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 35,
@@ -349,7 +350,7 @@ const productos = [
     "precio": "156",
     "foto": "https://picsum.photos/300/200?Random=37",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 36,
@@ -359,7 +360,7 @@ const productos = [
     "precio": "69",
     "foto": "https://picsum.photos/300/200?Random=38",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 37,
@@ -369,7 +370,7 @@ const productos = [
     "precio": "69",
     "foto": "https://picsum.photos/300/200?Random=39",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 38,
@@ -379,7 +380,7 @@ const productos = [
     "precio": "117",
     "foto": "https://picsum.photos/300/200?Random=40",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 39,
@@ -389,7 +390,7 @@ const productos = [
     "precio": "127",
     "foto": "https://picsum.photos/300/200?Random=41",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 40,
@@ -399,7 +400,7 @@ const productos = [
     "precio": "110",
     "foto": "https://picsum.photos/300/200?Random=42",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 41,
@@ -409,7 +410,7 @@ const productos = [
     "precio": "92",
     "foto": "https://picsum.photos/300/200?Random=43",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 42,
@@ -419,7 +420,7 @@ const productos = [
     "precio": "77",
     "foto": "https://picsum.photos/300/200?Random=44",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 43,
@@ -429,7 +430,7 @@ const productos = [
     "precio": "69",
     "foto": "https://picsum.photos/300/200?Random=45",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 44,
@@ -439,7 +440,7 @@ const productos = [
     "precio": "94",
     "foto": "https://picsum.photos/300/200?Random=46",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 45,
@@ -449,7 +450,7 @@ const productos = [
     "precio": "67",
     "foto": "https://picsum.photos/300/200?Random=47",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 46,
@@ -459,7 +460,7 @@ const productos = [
     "precio": "65",
     "foto": "https://picsum.photos/300/200?Random=48",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 47,
@@ -469,7 +470,7 @@ const productos = [
     "precio": "65",
     "foto": "https://picsum.photos/300/200?Random=49",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 48,
@@ -479,7 +480,7 @@ const productos = [
     "precio": "82",
     "foto": "https://picsum.photos/300/200?Random=50",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 49,
@@ -489,7 +490,7 @@ const productos = [
     "precio": "71",
     "foto": "https://picsum.photos/300/200?Random=51",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 50,
@@ -499,7 +500,7 @@ const productos = [
     "precio": "110",
     "foto": "https://picsum.photos/300/200?Random=52",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 51,
@@ -509,7 +510,7 @@ const productos = [
     "precio": "96",
     "foto": "https://picsum.photos/300/200?Random=53",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 52,
@@ -519,7 +520,7 @@ const productos = [
     "precio": "67",
     "foto": "https://picsum.photos/300/200?Random=54",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 53,
@@ -529,7 +530,7 @@ const productos = [
     "precio": "78",
     "foto": "https://picsum.photos/300/200?Random=55",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 54,
@@ -539,7 +540,7 @@ const productos = [
     "precio": "114",
     "foto": "https://picsum.photos/300/200?Random=56",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 55,
@@ -549,7 +550,7 @@ const productos = [
     "precio": "173",
     "foto": "https://picsum.photos/300/200?Random=57",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 56,
@@ -559,7 +560,7 @@ const productos = [
     "precio": "69",
     "foto": "https://picsum.photos/300/200?Random=58",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 57,
@@ -569,7 +570,7 @@ const productos = [
     "precio": "110",
     "foto": "https://picsum.photos/300/200?Random=59",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 58,
@@ -579,7 +580,7 @@ const productos = [
     "precio": "156",
     "foto": "https://picsum.photos/300/200?Random=60",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 59,
@@ -589,7 +590,7 @@ const productos = [
     "precio": "117",
     "foto": "https://picsum.photos/300/200?Random=61",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 60,
@@ -599,7 +600,7 @@ const productos = [
     "precio": "176",
     "foto": "https://picsum.photos/300/200?Random=62",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 61,
@@ -609,7 +610,7 @@ const productos = [
     "precio": "166",
     "foto": "https://picsum.photos/300/200?Random=63",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 62,
@@ -619,7 +620,7 @@ const productos = [
     "precio": "117",
     "foto": "https://picsum.photos/300/200?Random=64",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 63,
@@ -629,7 +630,7 @@ const productos = [
     "precio": "73",
     "foto": "https://picsum.photos/300/200?Random=65",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 64,
@@ -639,7 +640,7 @@ const productos = [
     "precio": "50",
     "foto": "https://picsum.photos/300/200?Random=66",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 65,
@@ -649,7 +650,7 @@ const productos = [
     "precio": "98",
     "foto": "https://picsum.photos/300/200?Random=67",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 66,
@@ -659,7 +660,7 @@ const productos = [
     "precio": "49",
     "foto": "https://picsum.photos/300/200?Random=68",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 67,
@@ -669,7 +670,7 @@ const productos = [
     "precio": "59",
     "foto": "https://picsum.photos/300/200?Random=69",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 68,
@@ -679,7 +680,7 @@ const productos = [
     "precio": "69",
     "foto": "https://picsum.photos/300/200?Random=70",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 69,
@@ -689,7 +690,7 @@ const productos = [
     "precio": "59",
     "foto": "https://picsum.photos/300/200?Random=71",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 70,
@@ -699,7 +700,7 @@ const productos = [
     "precio": "88",
     "foto": "https://picsum.photos/300/200?Random=72",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 71,
@@ -709,7 +710,7 @@ const productos = [
     "precio": "50",
     "foto": "https://picsum.photos/300/200?Random=73",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 72,
@@ -719,7 +720,7 @@ const productos = [
     "precio": "69",
     "foto": "https://picsum.photos/300/200?Random=74",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 73,
@@ -729,7 +730,7 @@ const productos = [
     "precio": "59",
     "foto": "https://picsum.photos/300/200?Random=75",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 74,
@@ -739,7 +740,7 @@ const productos = [
     "precio": "50",
     "foto": "https://picsum.photos/300/200?Random=76",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 75,
@@ -749,7 +750,7 @@ const productos = [
     "precio": "83",
     "foto": "https://picsum.photos/300/200?Random=77",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 76,
@@ -759,7 +760,7 @@ const productos = [
     "precio": "88",
     "foto": "https://picsum.photos/300/200?Random=78",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 77,
@@ -769,7 +770,7 @@ const productos = [
     "precio": "404",
     "foto": "https://picsum.photos/300/200?Random=79",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 78,
@@ -779,7 +780,7 @@ const productos = [
     "precio": "83",
     "foto": "https://picsum.photos/300/200?Random=80",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 79,
@@ -789,7 +790,7 @@ const productos = [
     "precio": "44",
     "foto": "https://picsum.photos/300/200?Random=81",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 80,
@@ -799,7 +800,7 @@ const productos = [
     "precio": "44",
     "foto": "https://picsum.photos/300/200?Random=82",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 81,
@@ -809,7 +810,7 @@ const productos = [
     "precio": "69",
     "foto": "https://picsum.photos/300/200?Random=83",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 82,
@@ -819,7 +820,7 @@ const productos = [
     "precio": "44",
     "foto": "https://picsum.photos/300/200?Random=84",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 83,
@@ -829,7 +830,7 @@ const productos = [
     "precio": "50",
     "foto": "https://picsum.photos/300/200?Random=85",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 84,
@@ -839,7 +840,7 @@ const productos = [
     "precio": "59",
     "foto": "https://picsum.photos/300/200?Random=86",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 85,
@@ -849,7 +850,7 @@ const productos = [
     "precio": "53",
     "foto": "https://picsum.photos/300/200?Random=87",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 86,
@@ -859,7 +860,7 @@ const productos = [
     "precio": "59",
     "foto": "https://picsum.photos/300/200?Random=88",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 87,
@@ -869,7 +870,7 @@ const productos = [
     "precio": "51",
     "foto": "https://picsum.photos/300/200?Random=89",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 88,
@@ -879,7 +880,7 @@ const productos = [
     "precio": "53",
     "foto": "https://picsum.photos/300/200?Random=90",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 89,
@@ -889,7 +890,7 @@ const productos = [
     "precio": "50",
     "foto": "https://picsum.photos/300/200?Random=91",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 90,
@@ -899,7 +900,7 @@ const productos = [
     "precio": "15",
     "foto": "https://picsum.photos/300/200?Random=92",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 91,
@@ -909,7 +910,7 @@ const productos = [
     "precio": "50",
     "foto": "https://picsum.photos/300/200?Random=93",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 92,
@@ -919,7 +920,7 @@ const productos = [
     "precio": "63",
     "foto": "https://picsum.photos/300/200?Random=94",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 93,
@@ -929,7 +930,7 @@ const productos = [
     "precio": "54",
     "foto": "https://picsum.photos/300/200?Random=95",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 94,
@@ -939,7 +940,7 @@ const productos = [
     "precio": "54",
     "foto": "https://picsum.photos/300/200?Random=96",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 95,
@@ -949,7 +950,7 @@ const productos = [
     "precio": "54",
     "foto": "https://picsum.photos/300/200?Random=97",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 96,
@@ -959,7 +960,7 @@ const productos = [
     "precio": "59",
     "foto": "https://picsum.photos/300/200?Random=98",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 97,
@@ -969,7 +970,7 @@ const productos = [
     "precio": "59",
     "foto": "https://picsum.photos/300/200?Random=99",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 98,
@@ -979,7 +980,7 @@ const productos = [
     "precio": "63",
     "foto": "https://picsum.photos/300/200?Random=100",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 99,
@@ -989,7 +990,7 @@ const productos = [
     "precio": "63",
     "foto": "https://picsum.photos/300/200?Random=101",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 100,
@@ -999,7 +1000,7 @@ const productos = [
     "precio": "53",
     "foto": "https://picsum.photos/300/200?Random=102",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 101,
@@ -1009,7 +1010,7 @@ const productos = [
     "precio": "63",
     "foto": "https://picsum.photos/300/200?Random=103",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 102,
@@ -1019,7 +1020,7 @@ const productos = [
     "precio": "63",
     "foto": "https://picsum.photos/300/200?Random=104",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 103,
@@ -1029,7 +1030,7 @@ const productos = [
     "precio": "54",
     "foto": "https://picsum.photos/300/200?Random=105",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 104,
@@ -1039,7 +1040,7 @@ const productos = [
     "precio": "59",
     "foto": "https://picsum.photos/300/200?Random=106",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 105,
@@ -1049,7 +1050,7 @@ const productos = [
     "precio": "63",
     "foto": "https://picsum.photos/300/200?Random=107",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 106,
@@ -1059,7 +1060,7 @@ const productos = [
     "precio": "55",
     "foto": "https://picsum.photos/300/200?Random=108",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 107,
@@ -1069,7 +1070,7 @@ const productos = [
     "precio": "55",
     "foto": "https://picsum.photos/300/200?Random=109",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 108,
@@ -1079,7 +1080,7 @@ const productos = [
     "precio": "55",
     "foto": "https://picsum.photos/300/200?Random=110",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 109,
@@ -1089,7 +1090,7 @@ const productos = [
     "precio": "54",
     "foto": "https://picsum.photos/300/200?Random=111",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 110,
@@ -1099,7 +1100,7 @@ const productos = [
     "precio": "59",
     "foto": "https://picsum.photos/300/200?Random=112",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 111,
@@ -1109,7 +1110,7 @@ const productos = [
     "precio": "59",
     "foto": "https://picsum.photos/300/200?Random=113",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 112,
@@ -1119,7 +1120,7 @@ const productos = [
     "precio": "59",
     "foto": "https://picsum.photos/300/200?Random=114",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 113,
@@ -1129,7 +1130,7 @@ const productos = [
     "precio": "74",
     "foto": "https://picsum.photos/300/200?Random=115",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 114,
@@ -1139,7 +1140,7 @@ const productos = [
     "precio": "96",
     "foto": "https://picsum.photos/300/200?Random=116",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 115,
@@ -1149,7 +1150,7 @@ const productos = [
     "precio": "54",
     "foto": "https://picsum.photos/300/200?Random=117",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 116,
@@ -1159,7 +1160,7 @@ const productos = [
     "precio": "74",
     "foto": "https://picsum.photos/300/200?Random=118",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 117,
@@ -1169,7 +1170,7 @@ const productos = [
     "precio": "50",
     "foto": "https://picsum.photos/300/200?Random=119",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 118,
@@ -1179,7 +1180,7 @@ const productos = [
     "precio": "44",
     "foto": "https://picsum.photos/300/200?Random=120",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 119,
@@ -1189,7 +1190,7 @@ const productos = [
     "precio": "44",
     "foto": "https://picsum.photos/300/200?Random=121",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 120,
@@ -1199,7 +1200,7 @@ const productos = [
     "precio": "44",
     "foto": "https://picsum.photos/300/200?Random=122",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 121,
@@ -1209,7 +1210,7 @@ const productos = [
     "precio": "63",
     "foto": "https://picsum.photos/300/200?Random=123",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 122,
@@ -1219,7 +1220,7 @@ const productos = [
     "precio": "54",
     "foto": "https://picsum.photos/300/200?Random=124",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 123,
@@ -1229,7 +1230,7 @@ const productos = [
     "precio": "50",
     "foto": "https://picsum.photos/300/200?Random=125",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 124,
@@ -1239,7 +1240,7 @@ const productos = [
     "precio": "82",
     "foto": "https://picsum.photos/300/200?Random=126",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 125,
@@ -1249,7 +1250,7 @@ const productos = [
     "precio": "82",
     "foto": "https://picsum.photos/300/200?Random=127",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 126,
@@ -1259,7 +1260,7 @@ const productos = [
     "precio": "73",
     "foto": "https://picsum.photos/300/200?Random=128",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 127,
@@ -1269,7 +1270,7 @@ const productos = [
     "precio": "59",
     "foto": "https://picsum.photos/300/200?Random=129",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 128,
@@ -1279,7 +1280,7 @@ const productos = [
     "precio": "50",
     "foto": "https://picsum.photos/300/200?Random=130",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 129,
@@ -1289,7 +1290,7 @@ const productos = [
     "precio": "51",
     "foto": "https://picsum.photos/300/200?Random=131",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 130,
@@ -1299,7 +1300,7 @@ const productos = [
     "precio": "53",
     "foto": "https://picsum.photos/300/200?Random=132",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 131,
@@ -1309,7 +1310,7 @@ const productos = [
     "precio": "54",
     "foto": "https://picsum.photos/300/200?Random=133",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 132,
@@ -1319,7 +1320,7 @@ const productos = [
     "precio": "59",
     "foto": "https://picsum.photos/300/200?Random=134",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 133,
@@ -1329,7 +1330,7 @@ const productos = [
     "precio": "50",
     "foto": "https://picsum.photos/300/200?Random=135",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 134,
@@ -1339,7 +1340,7 @@ const productos = [
     "precio": "50",
     "foto": "https://picsum.photos/300/200?Random=136",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 135,
@@ -1349,7 +1350,7 @@ const productos = [
     "precio": "44",
     "foto": "https://picsum.photos/300/200?Random=137",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 136,
@@ -1359,7 +1360,7 @@ const productos = [
     "precio": "50",
     "foto": "https://picsum.photos/300/200?Random=138",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 137,
@@ -1369,7 +1370,7 @@ const productos = [
     "precio": "50",
     "foto": "https://picsum.photos/300/200?Random=139",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 138,
@@ -1379,7 +1380,7 @@ const productos = [
     "precio": "50",
     "foto": "https://picsum.photos/300/200?Random=140",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 139,
@@ -1389,7 +1390,7 @@ const productos = [
     "precio": "44",
     "foto": "https://picsum.photos/300/200?Random=141",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 140,
@@ -1399,7 +1400,7 @@ const productos = [
     "precio": "44",
     "foto": "https://picsum.photos/300/200?Random=142",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 141,
@@ -1409,7 +1410,7 @@ const productos = [
     "precio": "44",
     "foto": "https://picsum.photos/300/200?Random=143",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 142,
@@ -1419,7 +1420,7 @@ const productos = [
     "precio": "53",
     "foto": "https://picsum.photos/300/200?Random=144",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 143,
@@ -1429,7 +1430,7 @@ const productos = [
     "precio": "50",
     "foto": "https://picsum.photos/300/200?Random=145",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 144,
@@ -1439,7 +1440,7 @@ const productos = [
     "precio": "44",
     "foto": "https://picsum.photos/300/200?Random=146",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 145,
@@ -1449,7 +1450,7 @@ const productos = [
     "precio": "50",
     "foto": "https://picsum.photos/300/200?Random=147",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 146,
@@ -1459,7 +1460,7 @@ const productos = [
     "precio": "50",
     "foto": "https://picsum.photos/300/200?Random=148",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 147,
@@ -1469,7 +1470,7 @@ const productos = [
     "precio": "59",
     "foto": "https://picsum.photos/300/200?Random=149",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 148,
@@ -1479,7 +1480,7 @@ const productos = [
     "precio": "50",
     "foto": "https://picsum.photos/300/200?Random=150",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 149,
@@ -1489,7 +1490,7 @@ const productos = [
     "precio": "50",
     "foto": "https://picsum.photos/300/200?Random=151",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 150,
@@ -1499,7 +1500,7 @@ const productos = [
     "precio": "50",
     "foto": "https://picsum.photos/300/200?Random=152",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 151,
@@ -1509,7 +1510,7 @@ const productos = [
     "precio": "50",
     "foto": "https://picsum.photos/300/200?Random=153",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 152,
@@ -1519,7 +1520,7 @@ const productos = [
     "precio": "54",
     "foto": "https://picsum.photos/300/200?Random=154",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 153,
@@ -1529,7 +1530,7 @@ const productos = [
     "precio": "53",
     "foto": "https://picsum.photos/300/200?Random=155",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 154,
@@ -1539,7 +1540,7 @@ const productos = [
     "precio": "50",
     "foto": "https://picsum.photos/300/200?Random=156",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 155,
@@ -1549,7 +1550,7 @@ const productos = [
     "precio": "50",
     "foto": "https://picsum.photos/300/200?Random=157",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 156,
@@ -1559,7 +1560,7 @@ const productos = [
     "precio": "50",
     "foto": "https://picsum.photos/300/200?Random=158",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 157,
@@ -1569,7 +1570,7 @@ const productos = [
     "precio": "45",
     "foto": "https://picsum.photos/300/200?Random=159",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 158,
@@ -1579,7 +1580,7 @@ const productos = [
     "precio": "44",
     "foto": "https://picsum.photos/300/200?Random=160",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 159,
@@ -1589,7 +1590,7 @@ const productos = [
     "precio": "44",
     "foto": "https://picsum.photos/300/200?Random=161",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 160,
@@ -1599,7 +1600,7 @@ const productos = [
     "precio": "44",
     "foto": "https://picsum.photos/300/200?Random=162",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 161,
@@ -1609,7 +1610,7 @@ const productos = [
     "precio": "47",
     "foto": "https://picsum.photos/300/200?Random=163",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 162,
@@ -1619,7 +1620,7 @@ const productos = [
     "precio": "50",
     "foto": "https://picsum.photos/300/200?Random=164",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 163,
@@ -1629,7 +1630,7 @@ const productos = [
     "precio": "50",
     "foto": "https://picsum.photos/300/200?Random=165",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 164,
@@ -1639,7 +1640,7 @@ const productos = [
     "precio": "43",
     "foto": "https://picsum.photos/300/200?Random=166",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 165,
@@ -1649,7 +1650,7 @@ const productos = [
     "precio": "50",
     "foto": "https://picsum.photos/300/200?Random=167",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 166,
@@ -1659,7 +1660,7 @@ const productos = [
     "precio": "50",
     "foto": "https://picsum.photos/300/200?Random=168",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 167,
@@ -1669,7 +1670,7 @@ const productos = [
     "precio": "234",
     "foto": "https://picsum.photos/300/200?Random=169",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 168,
@@ -1679,7 +1680,7 @@ const productos = [
     "precio": "195",
     "foto": "https://picsum.photos/300/200?Random=170",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 169,
@@ -1689,7 +1690,7 @@ const productos = [
     "precio": "184",
     "foto": "https://picsum.photos/300/200?Random=171",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 170,
@@ -1699,7 +1700,7 @@ const productos = [
     "precio": "166",
     "foto": "https://picsum.photos/300/200?Random=172",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 171,
@@ -1709,7 +1710,7 @@ const productos = [
     "precio": "195",
     "foto": "https://picsum.photos/300/200?Random=173",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 172,
@@ -1719,7 +1720,7 @@ const productos = [
     "precio": "171",
     "foto": "https://picsum.photos/300/200?Random=174",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 173,
@@ -1729,7 +1730,7 @@ const productos = [
     "precio": "$ 28",
     "foto": "https://picsum.photos/300/200?Random=175",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 174,
@@ -1739,7 +1740,7 @@ const productos = [
     "precio": "$ 28",
     "foto": "https://picsum.photos/300/200?Random=176",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 175,
@@ -1749,7 +1750,7 @@ const productos = [
     "precio": "$ 28",
     "foto": "https://picsum.photos/300/200?Random=177",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 176,
@@ -1759,7 +1760,7 @@ const productos = [
     "precio": "$ 28",
     "foto": "https://picsum.photos/300/200?Random=178",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 177,
@@ -1769,7 +1770,7 @@ const productos = [
     "precio": "$ 28",
     "foto": "https://picsum.photos/300/200?Random=179",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 178,
@@ -1779,7 +1780,7 @@ const productos = [
     "precio": "$ 28",
     "foto": "https://picsum.photos/300/200?Random=180",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 179,
@@ -1789,7 +1790,7 @@ const productos = [
     "precio": "$ 28",
     "foto": "https://picsum.photos/300/200?Random=181",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 180,
@@ -1799,7 +1800,7 @@ const productos = [
     "precio": "$ 28",
     "foto": "https://picsum.photos/300/200?Random=182",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 181,
@@ -1809,7 +1810,7 @@ const productos = [
     "precio": "$ 28",
     "foto": "https://picsum.photos/300/200?Random=183",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 182,
@@ -1819,7 +1820,7 @@ const productos = [
     "precio": "$ 28",
     "foto": "https://picsum.photos/300/200?Random=184",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 183,
@@ -1829,7 +1830,7 @@ const productos = [
     "precio": "$ 28",
     "foto": "https://picsum.photos/300/200?Random=185",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 184,
@@ -1839,7 +1840,7 @@ const productos = [
     "precio": "$ 28",
     "foto": "https://picsum.photos/300/200?Random=186",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 185,
@@ -1849,7 +1850,7 @@ const productos = [
     "precio": "$ 28",
     "foto": "https://picsum.photos/300/200?Random=187",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 186,
@@ -1859,7 +1860,7 @@ const productos = [
     "precio": "$ 28",
     "foto": "https://picsum.photos/300/200?Random=188",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 187,
@@ -1869,7 +1870,7 @@ const productos = [
     "precio": "$ 28",
     "foto": "https://picsum.photos/300/200?Random=189",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 188,
@@ -1879,7 +1880,7 @@ const productos = [
     "precio": "$ 28",
     "foto": "https://picsum.photos/300/200?Random=190",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 189,
@@ -1889,7 +1890,7 @@ const productos = [
     "precio": "$ 28",
     "foto": "https://picsum.photos/300/200?Random=191",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 190,
@@ -1899,7 +1900,7 @@ const productos = [
     "precio": "$ 28",
     "foto": "https://picsum.photos/300/200?Random=192",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 191,
@@ -1909,7 +1910,7 @@ const productos = [
     "precio": "194",
     "foto": "https://picsum.photos/300/200?Random=193",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 192,
@@ -1919,7 +1920,7 @@ const productos = [
     "precio": "133",
     "foto": "https://picsum.photos/300/200?Random=194",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 193,
@@ -1929,7 +1930,7 @@ const productos = [
     "precio": "127",
     "foto": "https://picsum.photos/300/200?Random=195",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 194,
@@ -1939,7 +1940,7 @@ const productos = [
     "precio": "127",
     "foto": "https://picsum.photos/300/200?Random=196",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 195,
@@ -1949,7 +1950,7 @@ const productos = [
     "precio": "133",
     "foto": "https://picsum.photos/300/200?Random=197",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 196,
@@ -1959,7 +1960,7 @@ const productos = [
     "precio": "127",
     "foto": "https://picsum.photos/300/200?Random=198",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 197,
@@ -1969,7 +1970,7 @@ const productos = [
     "precio": "133",
     "foto": "https://picsum.photos/300/200?Random=199",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 198,
@@ -1979,7 +1980,7 @@ const productos = [
     "precio": "117",
     "foto": "https://picsum.photos/300/200?Random=200",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 199,
@@ -1989,7 +1990,7 @@ const productos = [
     "precio": "67",
     "foto": "https://picsum.photos/300/200?Random=201",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 200,
@@ -1999,7 +2000,7 @@ const productos = [
     "precio": "114",
     "foto": "https://picsum.photos/300/200?Random=202",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 201,
@@ -2009,7 +2010,7 @@ const productos = [
     "precio": "78",
     "foto": "https://picsum.photos/300/200?Random=203",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 202,
@@ -2019,7 +2020,7 @@ const productos = [
     "precio": "78",
     "foto": "https://picsum.photos/300/200?Random=204",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 203,
@@ -2029,7 +2030,7 @@ const productos = [
     "precio": "78",
     "foto": "https://picsum.photos/300/200?Random=205",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 204,
@@ -2039,7 +2040,7 @@ const productos = [
     "precio": "74",
     "foto": "https://picsum.photos/300/200?Random=206",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 205,
@@ -2049,7 +2050,7 @@ const productos = [
     "precio": "176",
     "foto": "https://picsum.photos/300/200?Random=207",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 206,
@@ -2059,7 +2060,7 @@ const productos = [
     "precio": "419",
     "foto": "https://picsum.photos/300/200?Random=208",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 207,
@@ -2069,7 +2070,7 @@ const productos = [
     "precio": "434",
     "foto": "https://picsum.photos/300/200?Random=209",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 208,
@@ -2079,7 +2080,7 @@ const productos = [
     "precio": "54",
     "foto": "https://picsum.photos/300/200?Random=210",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 209,
@@ -2089,7 +2090,7 @@ const productos = [
     "precio": "44",
     "foto": "https://picsum.photos/300/200?Random=211",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 210,
@@ -2099,7 +2100,7 @@ const productos = [
     "precio": "83",
     "foto": "https://picsum.photos/300/200?Random=212",
     "stock": 10,
-    "descripcion": ""
+    
   },
   {
     "id": 211,
@@ -2109,7 +2110,7 @@ const productos = [
     "precio": "83",
     "foto": "https://picsum.photos/300/200?Random=213",
     "stock": 10,
-    "descripcion": ""
+    
   }
  ]
 console.log(productos);
