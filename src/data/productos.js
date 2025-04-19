@@ -100,268 +100,268 @@ const productos = [
       "precio": "119",
       "foto": "https://picsum.photos/300/200?Random=13",
       "stock": 10
-    },
-    {
-      "id": 12,
-      "marca": "Al Haramain",
-      "nombre": "Al Haramain Cofre Amber Gold X 75 Ml + Colonia + Deo",
-      "clon": " ",
-      "precio": "176",
-      "foto": "https://picsum.photos/300/200?Random=14",
-      "stock": 10
-    },
-    {
-      "id": 13,
-      "marca": "Al Haramain",
-      "nombre": "Al Haramain Dubai Nigth X\\ 100 Ml",
-      "clon": "",
-      "precio": "119",
-      "foto": "https://picsum.photos/300/200?Random=15",
-      "stock": 10
-    },
-    {
-      "id": 14,
-      "marca": "Al Haramain",
-      "nombre": "Al Haramain Gold Extreme X 100 Ml ",
-      "clon": "",
-      "precio": "143",
-      "foto": "https://picsum.photos/300/200?Random=16",
-      "stock": 10
-    },
-    {
-      "id": 15,
-      "marca": "Al Haramain",
-      "nombre": "Al Haramain Private Edition X 100 Ml",
-      "clon": "",
-      "precio": "108",
-      "foto": "https://picsum.photos/300/200?Random=17",
-      "stock": 10
-    },
-    {
-      "id": 16,
-      "marca": "Al Haramain",
-      "nombre": "Al Haramain Rouge X 60 Ml ",
-      "clon": "BACARAT ROUGE",
-      "precio": "117",
-      "foto": "https://picsum.photos/300/200?Random=18",
-      "stock": 10
-    },
-    {
-      "id": 17,
-      "marca": "Al Haramain",
-      "nombre": "Al Haramian Fuccia X 120 Ml",
-      "clon": "",
-      "precio": "127",
-      "foto": "https://picsum.photos/300/200?Random=19",
-      "stock": 10
-    },
-    {
-      "id": 18,
-      "marca": "Al Haramain",
-      "nombre": "Detour Eco",
-      "clon": "",
-      "precio": "78",
-      "foto": "https://picsum.photos/300/200?Random=20",
-      "stock": 10
-    },
-    {
-      "id": 19,
-      "marca": "Al Haramain",
-      "nombre": "Detour Exclusivf Noir",
-      "clon": "",
-      "precio": "78",
-      "foto": "https://picsum.photos/300/200?Random=21",
-      "stock": 10
-    },
-    {
-      "id": 20,
-      "marca": "Al Haramain",
-      "nombre": "Detour Intense Noir",
-      "clon": "",
-      "precio": "78",
-      "foto": "https://picsum.photos/300/200?Random=22",
-      "stock": 10
-    },
-    {
-      "id": 21,
-      "marca": "Al Haramain",
-      "nombre": "Detour Noiir ",
-      "clon": "",
-      "precio": "55",
-      "foto": "https://picsum.photos/300/200?Random=23",
-      "stock": 10
-    },
-    {
-      "id": 22,
-      "marca": "Al Haramain",
-      "nombre": "Detour Rouge",
-      "clon": "",
-      "precio": "78",
-      "foto": "https://picsum.photos/300/200?Random=24",
-      "stock": 10
-    },
-    {
-      "id": 23,
-      "marca": "Al Haramain",
-      "nombre": "Al Haramain Amber Oud Gold 999.9 Edp 100 Ml",
-      "clon": " ",
-      "precio": "117",
-      "foto": "https://picsum.photos/300/200?Random=25",
-      "stock": 10
-    },
-    {
-      "id": 24,
-      "marca": "Al Haramain",
-      "nombre": "Al Haramain Amber Oud Ruby Edp 200 Ml",
-      "clon": " ",
-      "precio": "137",
-      "foto": "https://picsum.photos/300/200?Random=26",
-      "stock": 10
-    },
-    {
-      "id": 25,
-      "marca": "Al Haramain",
-      "nombre": "Al Haramain Amber Oud Tobacco Edp 60 Ml",
-      "clon": "   ",
-      "precio": "88",
-      "foto": "https://picsum.photos/300/200?Random=27",
-      "stock": 10
-    },
-    {
-      "id": 26,
-      "marca": "Al Haramain",
-      "nombre": "Al Haramain Gold Extreme Edp 200 Ml",
-      "clon": " ",
-      "precio": "147",
-      "foto": "https://picsum.photos/300/200?Random=28",
-      "stock": 10
-    },
-    {
-      "id": 27,
-      "marca": "Al Haramain",
-      "nombre": "Al Haramain L' Aventure Femme Edp 100 Ml",
-      "clon": " ",
-      "precio": "69",
-      "foto": "https://picsum.photos/300/200?Random=29",
-      "stock": 10
-    },
-    {
-      "id": 28,
-      "marca": "Al Haramain",
-      "nombre": "Al Haramain L' Aventure Men Edp 100 Ml",
-      "clon": " ",
-      "precio": "69",
-      "foto": "https://picsum.photos/300/200?Random=30",
-      "stock": 10
-    },
-    {
-      "id": 29,
-      "marca": "Ariana",
-      "nombre": "Ari X 100",
-      "clon": "",
-      "precio": "98",
-      "foto": "https://picsum.photos/300/200?Random=31",
-      "stock": 10
-    },
-    {
-      "id": 30,
-      "marca": "Ariana Grande",
-      "nombre": "Ariana Grande Cloud Edp 100 Ml  Cerrado",
-      "clon": " ",
-      "precio": "127",
-      "foto": "https://picsum.photos/300/200?Random=32",
-      "stock": 10
-    },
-    {
-      "id": 31,
-      "marca": "Ariana Grande",
-      "nombre": "Ariana Grande Thanks You Next Time Edp 100 Ml",
-      "clon": " ",
-      "precio": "98",
-      "foto": "https://picsum.photos/300/200?Random=33",
-      "stock": 10
-    },
-    {
-      "id": 32,
-      "marca": "Armaf",
-      "nombre": "Cdn Elixir X 105",
-      "clon": "SAUVAGE DIOR",
-      "precio": "73",
-      "foto": "https://picsum.photos/300/200?Random=34",
-      "stock": 10
-    },
-    {
-      "id": 33,
-      "marca": "Armaf",
-      "nombre": "Cdn Intense Hombre Desodorante",
-      "clon": " ",
-      "precio": "15",
-      "foto": "https://picsum.photos/300/200?Random=35",
-      "stock": 10
-    },
-    {
-      "id": 34,
-      "marca": "Armaf",
-      "nombre": "Cdn Intense Hombre Edt X 105  Clasico",
-      "clon": "CREED ADVENTUS MEN",
-      "precio": "57",
-      "foto": "https://picsum.photos/300/200?Random=36",
-      "stock": 10
-    },
-    {
-      "id": 35,
-      "marca": "Armaf",
-      "nombre": "Cdn Intense Hombre X 200 Ml Edp Tamano Grnade",
-      "clon": "CREED ADVENTUS MEN",
-      "precio": "156",
-      "foto": "https://picsum.photos/300/200?Random=37",
-      "stock": 10
-    },
-    {
-      "id": 36,
-      "marca": "Armaf",
-      "nombre": "Cdn Mujer Negro",
-      "clon": "",
-      "precio": "69",
-      "foto": "https://picsum.photos/300/200?Random=38",
-      "stock": 10
-    },
-    {
-      "id": 37,
-      "marca": "Armaf",
-      "nombre": "Cdn Mujer Rosa",
-      "clon": "",
-      "precio": "69",
-      "foto": "https://picsum.photos/300/200?Random=39",
-      "stock": 10
-    },
-    {
-      "id": 38,
-      "marca": "Armaf",
-      "nombre": "Club De Nuit Edicion Limitada X 105Ml",
-      "clon": "",
-      "precio": "117",
-      "foto": "https://picsum.photos/300/200?Random=40",
-      "stock": 10
-    },
-    {
-      "id": 39,
-      "marca": "Armaf",
-      "nombre": "Club De Nuit Intense Pure Parfum Men Edp 150 Ml",
-      "clon": " ",
-      "precio": "127",
-      "foto": "https://picsum.photos/300/200?Random=41",
-      "stock": 10
-    },
-    {
-      "id": 40,
-      "marca": "Armaf",
-      "nombre": "Club De Nuit Kit Mini X 10 Unidades De 10 *Ml Cada Una",
-      "clon": "",
-      "precio": "110",
-      "foto": "https://picsum.photos/300/200?Random=42",
-      "stock": 10
     }
+    // {
+    //   "id": 12,
+    //   "marca": "Al Haramain",
+    //   "nombre": "Al Haramain Cofre Amber Gold X 75 Ml + Colonia + Deo",
+    //   "clon": " ",
+    //   "precio": "176",
+    //   "foto": "https://picsum.photos/300/200?Random=14",
+    //   "stock": 10
+    // },
+    // {
+    //   "id": 13,
+    //   "marca": "Al Haramain",
+    //   "nombre": "Al Haramain Dubai Nigth X\\ 100 Ml",
+    //   "clon": "",
+    //   "precio": "119",
+    //   "foto": "https://picsum.photos/300/200?Random=15",
+    //   "stock": 10
+    // },
+    // {
+    //   "id": 14,
+    //   "marca": "Al Haramain",
+    //   "nombre": "Al Haramain Gold Extreme X 100 Ml ",
+    //   "clon": "",
+    //   "precio": "143",
+    //   "foto": "https://picsum.photos/300/200?Random=16",
+    //   "stock": 10
+    // },
+    // {
+    //   "id": 15,
+    //   "marca": "Al Haramain",
+    //   "nombre": "Al Haramain Private Edition X 100 Ml",
+    //   "clon": "",
+    //   "precio": "108",
+    //   "foto": "https://picsum.photos/300/200?Random=17",
+    //   "stock": 10
+    // },
+    // {
+    //   "id": 16,
+    //   "marca": "Al Haramain",
+    //   "nombre": "Al Haramain Rouge X 60 Ml ",
+    //   "clon": "BACARAT ROUGE",
+    //   "precio": "117",
+    //   "foto": "https://picsum.photos/300/200?Random=18",
+    //   "stock": 10
+    // },
+    // {
+    //   "id": 17,
+    //   "marca": "Al Haramain",
+    //   "nombre": "Al Haramian Fuccia X 120 Ml",
+    //   "clon": "",
+    //   "precio": "127",
+    //   "foto": "https://picsum.photos/300/200?Random=19",
+    //   "stock": 10
+    // },
+    // {
+    //   "id": 18,
+    //   "marca": "Al Haramain",
+    //   "nombre": "Detour Eco",
+    //   "clon": "",
+    //   "precio": "78",
+    //   "foto": "https://picsum.photos/300/200?Random=20",
+    //   "stock": 10
+    // },
+    // {
+    //   "id": 19,
+    //   "marca": "Al Haramain",
+    //   "nombre": "Detour Exclusivf Noir",
+    //   "clon": "",
+    //   "precio": "78",
+    //   "foto": "https://picsum.photos/300/200?Random=21",
+    //   "stock": 10
+    // },
+    // {
+    //   "id": 20,
+    //   "marca": "Al Haramain",
+    //   "nombre": "Detour Intense Noir",
+    //   "clon": "",
+    //   "precio": "78",
+    //   "foto": "https://picsum.photos/300/200?Random=22",
+    //   "stock": 10
+    // },
+    // {
+    //   "id": 21,
+    //   "marca": "Al Haramain",
+    //   "nombre": "Detour Noiir ",
+    //   "clon": "",
+    //   "precio": "55",
+    //   "foto": "https://picsum.photos/300/200?Random=23",
+    //   "stock": 10
+    // },
+    // {
+    //   "id": 22,
+    //   "marca": "Al Haramain",
+    //   "nombre": "Detour Rouge",
+    //   "clon": "",
+    //   "precio": "78",
+    //   "foto": "https://picsum.photos/300/200?Random=24",
+    //   "stock": 10
+    // },
+    // {
+    //   "id": 23,
+    //   "marca": "Al Haramain",
+    //   "nombre": "Al Haramain Amber Oud Gold 999.9 Edp 100 Ml",
+    //   "clon": " ",
+    //   "precio": "117",
+    //   "foto": "https://picsum.photos/300/200?Random=25",
+    //   "stock": 10
+    // },
+    // {
+    //   "id": 24,
+    //   "marca": "Al Haramain",
+    //   "nombre": "Al Haramain Amber Oud Ruby Edp 200 Ml",
+    //   "clon": " ",
+    //   "precio": "137",
+    //   "foto": "https://picsum.photos/300/200?Random=26",
+    //   "stock": 10
+    // },
+    // {
+    //   "id": 25,
+    //   "marca": "Al Haramain",
+    //   "nombre": "Al Haramain Amber Oud Tobacco Edp 60 Ml",
+    //   "clon": "   ",
+    //   "precio": "88",
+    //   "foto": "https://picsum.photos/300/200?Random=27",
+    //   "stock": 10
+    // },
+    // {
+    //   "id": 26,
+    //   "marca": "Al Haramain",
+    //   "nombre": "Al Haramain Gold Extreme Edp 200 Ml",
+    //   "clon": " ",
+    //   "precio": "147",
+    //   "foto": "https://picsum.photos/300/200?Random=28",
+    //   "stock": 10
+    // },
+    // {
+    //   "id": 27,
+    //   "marca": "Al Haramain",
+    //   "nombre": "Al Haramain L' Aventure Femme Edp 100 Ml",
+    //   "clon": " ",
+    //   "precio": "69",
+    //   "foto": "https://picsum.photos/300/200?Random=29",
+    //   "stock": 10
+    // },
+    // {
+    //   "id": 28,
+    //   "marca": "Al Haramain",
+    //   "nombre": "Al Haramain L' Aventure Men Edp 100 Ml",
+    //   "clon": " ",
+    //   "precio": "69",
+    //   "foto": "https://picsum.photos/300/200?Random=30",
+    //   "stock": 10
+    // },
+    // {
+    //   "id": 29,
+    //   "marca": "Ariana",
+    //   "nombre": "Ari X 100",
+    //   "clon": "",
+    //   "precio": "98",
+    //   "foto": "https://picsum.photos/300/200?Random=31",
+    //   "stock": 10
+    // },
+    // {
+    //   "id": 30,
+    //   "marca": "Ariana Grande",
+    //   "nombre": "Ariana Grande Cloud Edp 100 Ml  Cerrado",
+    //   "clon": " ",
+    //   "precio": "127",
+    //   "foto": "https://picsum.photos/300/200?Random=32",
+    //   "stock": 10
+    // },
+    // {
+    //   "id": 31,
+    //   "marca": "Ariana Grande",
+    //   "nombre": "Ariana Grande Thanks You Next Time Edp 100 Ml",
+    //   "clon": " ",
+    //   "precio": "98",
+    //   "foto": "https://picsum.photos/300/200?Random=33",
+    //   "stock": 10
+    // },
+    // {
+    //   "id": 32,
+    //   "marca": "Armaf",
+    //   "nombre": "Cdn Elixir X 105",
+    //   "clon": "SAUVAGE DIOR",
+    //   "precio": "73",
+    //   "foto": "https://picsum.photos/300/200?Random=34",
+    //   "stock": 10
+    // },
+    // {
+    //   "id": 33,
+    //   "marca": "Armaf",
+    //   "nombre": "Cdn Intense Hombre Desodorante",
+    //   "clon": " ",
+    //   "precio": "15",
+    //   "foto": "https://picsum.photos/300/200?Random=35",
+    //   "stock": 10
+    // },
+    // {
+    //   "id": 34,
+    //   "marca": "Armaf",
+    //   "nombre": "Cdn Intense Hombre Edt X 105  Clasico",
+    //   "clon": "CREED ADVENTUS MEN",
+    //   "precio": "57",
+    //   "foto": "https://picsum.photos/300/200?Random=36",
+    //   "stock": 10
+    // },
+    // {
+    //   "id": 35,
+    //   "marca": "Armaf",
+    //   "nombre": "Cdn Intense Hombre X 200 Ml Edp Tamano Grnade",
+    //   "clon": "CREED ADVENTUS MEN",
+    //   "precio": "156",
+    //   "foto": "https://picsum.photos/300/200?Random=37",
+    //   "stock": 10
+    // },
+    // {
+    //   "id": 36,
+    //   "marca": "Armaf",
+    //   "nombre": "Cdn Mujer Negro",
+    //   "clon": "",
+    //   "precio": "69",
+    //   "foto": "https://picsum.photos/300/200?Random=38",
+    //   "stock": 10
+    // },
+    // {
+    //   "id": 37,
+    //   "marca": "Armaf",
+    //   "nombre": "Cdn Mujer Rosa",
+    //   "clon": "",
+    //   "precio": "69",
+    //   "foto": "https://picsum.photos/300/200?Random=39",
+    //   "stock": 10
+    // },
+    // {
+    //   "id": 38,
+    //   "marca": "Armaf",
+    //   "nombre": "Club De Nuit Edicion Limitada X 105Ml",
+    //   "clon": "",
+    //   "precio": "117",
+    //   "foto": "https://picsum.photos/300/200?Random=40",
+    //   "stock": 10
+    // },
+    // {
+    //   "id": 39,
+    //   "marca": "Armaf",
+    //   "nombre": "Club De Nuit Intense Pure Parfum Men Edp 150 Ml",
+    //   "clon": " ",
+    //   "precio": "127",
+    //   "foto": "https://picsum.photos/300/200?Random=41",
+    //   "stock": 10
+    // },
+    // {
+    //   "id": 40,
+    //   "marca": "Armaf",
+    //   "nombre": "Club De Nuit Kit Mini X 10 Unidades De 10 *Ml Cada Una",
+    //   "clon": "",
+    //   "precio": "110",
+    //   "foto": "https://picsum.photos/300/200?Random=42",
+    //   "stock": 10
+    // }
     // {
     //   "id": 41,
     //   "marca": "Armaf",
