@@ -35,13 +35,16 @@ jobs:
       - name: Build React app
         run: npm run build
 
+      - name: Listar archivos
+        run: ls -R  # Agregar para verificar la existencia de la carpeta build
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: 'build'  # carpeta generada por React
+          path: 'dist'  # carpeta generada por React
 
       - name: Deploy to GitHub Pages
         id: deployment
