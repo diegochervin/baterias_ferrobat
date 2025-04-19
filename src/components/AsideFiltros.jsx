@@ -30,7 +30,7 @@ const AsideFiltros = ({
           id="buscar"
           value={busqueda}
           onChange={(e) => setBusqueda(e.target.value)}
-          placeholder="Ej: Willard 45..."
+          placeholder="Ej: Erba Pura..."
         />
       </div>
 

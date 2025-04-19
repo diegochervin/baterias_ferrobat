@@ -1,7 +1,7 @@
 import React from "react";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-import CardProducto from "./CardProducto"; // Asegurate que el path sea correcto
+import CardProducto from "./CardProducto"; // Asegúrate que el path sea correcto
 
 const ListaProductos = ({ baterias: productos }) => {
   return (

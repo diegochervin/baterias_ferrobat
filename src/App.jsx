@@ -3,7 +3,7 @@ import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ListaProductos from './components/ListaProductos';
 import productosData from './data/productos';
-import Footer from './components/Footer'
+// import Footer from './components/Footer'
 import AsideFiltros from './components/AsideFiltros';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { normalizarProductos } from './utils/normalizar';
@@ -103,7 +103,7 @@ function App() {
         </div>
       </div>
   
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
   

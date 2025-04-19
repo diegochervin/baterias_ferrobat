@@ -2,7 +2,7 @@ import { Card, Button } from "react-bootstrap";
 
 const CardProducto = ({ producto }) => {
   // Campos que no queremos mostrar como propiedad dinámica
-  const camposIgnorados = ["id", "imagen", "tipo", "precio", "stock"];
+  const camposIgnorados = ["id", "foto", "precio"]; // Ignoramos estos campos
 
   return (
     <Card
@@ -15,38 +15,35 @@ const CardProducto = ({ producto }) => {
     >
       <Card.Img
         variant="top"
-        src={producto.imagen}
-        alt={producto.modelo || producto.descripcion || "Producto"}
+        src={producto.foto}
+        alt={producto.nombre || "Producto"}
         style={{
           height: "200px",
           objectFit: "cover",
         }}
       />
       <Card.Body className="d-flex flex-column">
-        <Card.Title>
-          {producto.modelo || producto.descripcion || "Producto"}
-        </Card.Title>
+        <Card.Title>{producto.nombre || "Producto"}</Card.Title>
 
         <Card.Text className="mb-4">
           {producto.marca && (
             <>
-              {/* <strong>Marca:</strong> {producto.marca} <br /> */}
+              <strong>Marca:</strong> {producto.marca} <br />
             </>
           )}
 
           <strong>Precio:</strong>{" "}
-          <span className="text-danger fw-bold">${producto.precio}</span> <br />
+          <span className="text-danger fw-bold">U$S {producto.precio}</span> <br />
 
-          <strong>Stock:</strong> {producto.stock} <br />
+          {/* Mostrar el campo "Clon" solo si tiene un valor */}
+          {producto.Clon && (
+            <>
+              <strong>Clon:</strong> {producto.clon} <br />
+            </>
+          )}
 
-          {/* Mostrar dinámicamente el resto de propiedades */}
-          {Object.entries(producto)
-            .filter(([key, value]) => !camposIgnorados.includes(key) && value)
-            .map(([key, value]) => (
-              <div key={key}>
-                <strong>{capitalizar(key)}:</strong> {value}
-              </div>
-            ))}
+          {/* Aquí podrías mostrar otro campo, por ejemplo, stock */}
+          <strong>Stock:</strong> {producto.stock || "No disponible"} <br />
         </Card.Text>
 
         <Button
@@ -60,9 +57,5 @@ const CardProducto = ({ producto }) => {
     </Card>
   );
 };
-
-// Capitaliza el nombre de la propiedad
-const capitalizar = (texto) =>
-  texto.charAt(0).toUpperCase() + texto.slice(1).replace("_", " ");
 
 export default CardProducto;
