@@ -43,6 +43,13 @@ const CardProducto = ({ producto }) => {
             </>
           )}
 
+{/* {producto.descripcion && (
+            <>
+              <strong>descripcion:</strong> {producto.descripcion} <br />
+            </>
+          )} */}
+
+
           {/* Aquí podrías mostrar otro campo, por ejemplo, stock */}
           <strong>Stock:</strong> {producto.stock || "No disponible"} <br />
         </Card.Text>
