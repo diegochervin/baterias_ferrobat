@@ -7,6 +7,8 @@ import productosData from './data/productos';
 import AsideFiltros from './components/AsideFiltros';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { normalizarProductos } from './utils/normalizar';
+import viteLogo from './vite.svg';
+
 
 
 
