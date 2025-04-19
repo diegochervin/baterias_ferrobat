@@ -36,7 +36,7 @@ const CardProducto = ({ producto }) => {
           <span className="text-danger fw-bold">U$S {producto.precio}</span> <br />
 
           {/* Mostrar el campo "Clon" solo si tiene un valor */}
-          {producto.Clon && (
+          {producto.clon && (
             <>
               <strong>Clon:</strong> {producto.clon} <br />
             </>

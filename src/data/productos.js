@@ -69,7 +69,7 @@ const productos = [
       "id": 8,
       "marca": "Al Haramain",
       "nombre": "Al Haramain Amber Oud Black  X 100 Ml  Cerrado",
-      "clon": " ",
+      "clon": "",
       "precio": "114",
       "foto": "https://picsum.photos/300/200?Random=10",
       "stock": 10
