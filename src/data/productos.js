@@ -33,7 +33,7 @@ const productos = [
       "id": 4,
       "marca": "Afnan",
       "nombre": "Suporemacy Silver X 100",
-      "clon": " ",
+      "clon": "",
       "precio": "67",
       "foto": "https://picsum.photos/300/200?Random=6",
       "stock": 10
@@ -105,7 +105,7 @@ const productos = [
       "id": 12,
       "marca": "Al Haramain",
       "nombre": "Al Haramain Cofre Amber Gold X 75 Ml + Colonia + Deo",
-      "clon": " ",
+      "clon": "",
       "precio": "176",
       "foto": "https://picsum.photos/300/200?Random=14",
       "stock": 10
@@ -204,7 +204,7 @@ const productos = [
       "id": 23,
       "marca": "Al Haramain",
       "nombre": "Al Haramain Amber Oud Gold 999.9 Edp 100 Ml",
-      "clon": " ",
+      "clon": "",
       "precio": "117",
       "foto": "https://picsum.photos/300/200?Random=25",
       "stock": 10
@@ -213,7 +213,7 @@ const productos = [
       "id": 24,
       "marca": "Al Haramain",
       "nombre": "Al Haramain Amber Oud Ruby Edp 200 Ml",
-      "clon": " ",
+      "clon": "",
       "precio": "137",
       "foto": "https://picsum.photos/300/200?Random=26",
       "stock": 10
@@ -231,7 +231,7 @@ const productos = [
       "id": 26,
       "marca": "Al Haramain",
       "nombre": "Al Haramain Gold Extreme Edp 200 Ml",
-      "clon": " ",
+      "clon": "",
       "precio": "147",
       "foto": "https://picsum.photos/300/200?Random=28",
       "stock": 10
@@ -240,7 +240,7 @@ const productos = [
       "id": 27,
       "marca": "Al Haramain",
       "nombre": "Al Haramain L' Aventure Femme Edp 100 Ml",
-      "clon": " ",
+      "clon": "",
       "precio": "69",
       "foto": "https://picsum.photos/300/200?Random=29",
       "stock": 10
@@ -249,7 +249,7 @@ const productos = [
       "id": 28,
       "marca": "Al Haramain",
       "nombre": "Al Haramain L' Aventure Men Edp 100 Ml",
-      "clon": " ",
+      "clon": "",
       "precio": "69",
       "foto": "https://picsum.photos/300/200?Random=30",
       "stock": 10
@@ -267,7 +267,7 @@ const productos = [
       "id": 30,
       "marca": "Ariana Grande",
       "nombre": "Ariana Grande Cloud Edp 100 Ml  Cerrado",
-      "clon": " ",
+      "clon": "",
       "precio": "127",
       "foto": "https://picsum.photos/300/200?Random=32",
       "stock": 10
@@ -276,7 +276,7 @@ const productos = [
       "id": 31,
       "marca": "Ariana Grande",
       "nombre": "Ariana Grande Thanks You Next Time Edp 100 Ml",
-      "clon": " ",
+      "clon": "",
       "precio": "98",
       "foto": "https://picsum.photos/300/200?Random=33",
       "stock": 10
@@ -294,7 +294,7 @@ const productos = [
       "id": 33,
       "marca": "Armaf",
       "nombre": "Cdn Intense Hombre Desodorante",
-      "clon": " ",
+      "clon": "",
       "precio": "15",
       "foto": "https://picsum.photos/300/200?Random=35",
       "stock": 10
@@ -348,7 +348,7 @@ const productos = [
       "id": 39,
       "marca": "Armaf",
       "nombre": "Club De Nuit Intense Pure Parfum Men Edp 150 Ml",
-      "clon": " ",
+      "clon": "",
       "precio": "127",
       "foto": "https://picsum.photos/300/200?Random=41",
       "stock": 10
@@ -375,7 +375,7 @@ const productos = [
       "id": 42,
       "marca": "Armaf",
       "nombre": "Imperiale",
-      "clon": " ",
+      "clon": "",
       "precio": "77",
       "foto": "https://picsum.photos/300/200?Random=44",
       "stock": 10
@@ -501,7 +501,7 @@ const productos = [
       "id": 56,
       "marca": "Bentley",
       "nombre": "Bentley Intense Edp 100 Ml Cerrado",
-      "clon": " ",
+      "clon": "",
       "precio": "69",
       "foto": "https://picsum.photos/300/200?Random=58",
       "stock": 10
@@ -546,7 +546,7 @@ const productos = [
       "id": 61,
       "marca": "Bharara",
       "nombre": "Baharara Parfum X 100",
-      "clon": " ",
+      "clon": "",
       "precio": "166",
       "foto": "https://picsum.photos/300/200?Random=63",
       "stock": 10
@@ -582,7 +582,7 @@ const productos = [
       "id": 65,
       "marca": "Emper",
       "nombre": "Emper Discovery Set (4 X 30 Ml)",
-      "clon": " ",
+      "clon": "",
       "precio": "98",
       "foto": "https://picsum.photos/300/200?Random=67",
       "stock": 10
@@ -600,7 +600,7 @@ const productos = [
       "id": 67,
       "marca": "Emper",
       "nombre": "Emper The Black 92 Edp 100 Ml ",
-      "clon": " ",
+      "clon": "",
       "precio": "59",
       "foto": "https://picsum.photos/300/200?Random=69",
       "stock": 10
@@ -609,7 +609,7 @@ const productos = [
       "id": 68,
       "marca": "Emper",
       "nombre": "Emper The Immencity Edp 100 Ml -Dupe Lv L�Immensite-",
-      "clon": " ",
+      "clon": "",
       "precio": "69",
       "foto": "https://picsum.photos/300/200?Random=70",
       "stock": 10
@@ -618,7 +618,7 @@ const productos = [
       "id": 69,
       "marca": "Emper",
       "nombre": "Satallion 53 X 100 Ml ",
-      "clon": " ",
+      "clon": "",
       "precio": "59",
       "foto": "https://picsum.photos/300/200?Random=71",
       "stock": 10
@@ -645,7 +645,7 @@ const productos = [
       "id": 72,
       "marca": "Fragance World",
       "nombre": "Fragrance World Imperium Edp 100 Ml -Dupe Roja Elysium-",
-      "clon": " ",
+      "clon": "",
       "precio": "69",
       "foto": "https://picsum.photos/300/200?Random=74",
       "stock": 10
@@ -771,7 +771,7 @@ const productos = [
       "id": 86,
       "marca": "Lattafa",
       "nombre": "Asad Bourbon X 100",
-      "clon": " ",
+      "clon": "",
       "precio": "59",
       "foto": "https://picsum.photos/300/200?Random=88",
       "stock": 10
@@ -1050,7 +1050,7 @@ const productos = [
       "id": 117,
       "marca": "Lattafa",
       "nombre": "Oud For Glory X 100 Ml (Negro) ",
-      "clon": " ",
+      "clon": "",
       "precio": "50",
       "foto": "https://picsum.photos/300/200?Random=119",
       "stock": 10
@@ -1059,7 +1059,7 @@ const productos = [
       "id": 118,
       "marca": "Lattafa",
       "nombre": "Qaed Al Fursan  X 100   ",
-      "clon": " ",
+      "clon": "",
       "precio": "44",
       "foto": "https://picsum.photos/300/200?Random=120",
       "stock": 10
@@ -1149,7 +1149,7 @@ const productos = [
       "id": 128,
       "marca": "Lattafa",
       "nombre": "Yara Candy  X 100 Ml   ",
-      "clon": " ",
+      "clon": "",
       "precio": "50",
       "foto": "https://picsum.photos/300/200?Random=130",
       "stock": 10
@@ -1545,7 +1545,7 @@ const productos = [
       "id": 172,
       "marca": "Mancera",
       "nombre": "Rosa Vainilla X 120 Ml",
-      "clon": " ",
+      "clon": "",
       "precio": "171",
       "foto": "https://picsum.photos/300/200?Random=174",
       "stock": 10
@@ -1743,7 +1743,7 @@ const productos = [
       "id": 194,
       "marca": "Orientica",
       "nombre": "Oud Saffron X 80 Ml",
-      "clon": " ",
+      "clon": "",
       "precio": "127",
       "foto": "https://picsum.photos/300/200?Random=196",
       "stock": 10
@@ -1824,7 +1824,7 @@ const productos = [
       "id": 203,
       "marca": "Rasasi",
       "nombre": "Rasasi Hawas Women Edp 100 Ml",
-      "clon": " ",
+      "clon": "",
       "precio": "78",
       "foto": "https://picsum.photos/300/200?Random=205",
       "stock": 10
@@ -1842,7 +1842,7 @@ const productos = [
       "id": 205,
       "marca": "Valentino",
       "nombre": "Valentino Uomo Men Edt 100 Ml",
-      "clon": " ",
+      "clon": "",
       "precio": "176",
       "foto": "https://picsum.photos/300/200?Random=207",
       "stock": 10
