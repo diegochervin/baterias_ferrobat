@@ -100,7 +100,7 @@ const productos = [
       "precio": "119",
       "foto": "https://picsum.photos/300/200?Random=13",
       "stock": 10
-    }
+    },
     {
       "id": 12,
       "marca": "Al Haramain",
@@ -361,7 +361,7 @@ const productos = [
       "precio": "110",
       "foto": "https://picsum.photos/300/200?Random=42",
       "stock": 10
-    }
+    },
     {
       "id": 41,
       "marca": "Armaf",
