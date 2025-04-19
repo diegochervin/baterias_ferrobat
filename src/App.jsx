@@ -2,7 +2,7 @@ import { useState, useEffect, useMemo  } from 'react';
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ListaProductos from './components/ListaProductos';
-import productosData from './data/productos';
+import productosData from './data/productosListos';
 // import Footer from './components/Footer'
 import AsideFiltros from './components/AsideFiltros';
 import 'bootstrap/dist/css/bootstrap.min.css';
