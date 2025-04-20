@@ -1727,7 +1727,7 @@ const productos =
     "marca": "Masion Alambra ",
     "nombre": "Alpine Sport",
     "clon": "",
-    "precio": "$ 28",
+    "precio": 28,
     "foto": "https://picsum.photos/300/200?Random=175",
     "stock": 10,
     
@@ -1737,7 +1737,7 @@ const productos =
     "marca": "Masion Alambra ",
     "nombre": "Avant",
     "clon": "",
-    "precio": "$ 28",
+    "precio": 28,
     "foto": "https://picsum.photos/300/200?Random=176",
     "stock": 10,
     
@@ -1747,7 +1747,7 @@ const productos =
     "marca": "Masion Alambra ",
     "nombre": "Bad Boy",
     "clon": "",
-    "precio": "$ 28",
+    "precio": 28,
     "foto": "https://picsum.photos/300/200?Random=177",
     "stock": 10,
     
@@ -1757,7 +1757,7 @@ const productos =
     "marca": "Masion Alambra ",
     "nombre": "Black Origami",
     "clon": "",
-    "precio": "$ 28",
+    "precio": 28,
     "foto": "https://picsum.photos/300/200?Random=178",
     "stock": 10,
     
@@ -1767,7 +1767,7 @@ const productos =
     "marca": "Masion Alambra ",
     "nombre": "Coral Blush Antes Brigth Peach",
     "clon": "",
-    "precio": "$ 28",
+    "precio": 28,
     "foto": "https://picsum.photos/300/200?Random=179",
     "stock": 10,
     
@@ -1777,7 +1777,7 @@ const productos =
     "marca": "Masion Alambra ",
     "nombre": "Eternal Touch",
     "clon": "",
-    "precio": "$ 28",
+    "precio": 28,
     "foto": "https://picsum.photos/300/200?Random=180",
     "stock": 10,
     
@@ -1787,7 +1787,7 @@ const productos =
     "marca": "Masion Alambra ",
     "nombre": "Fragancias X 30 Ml ",
     "clon": "",
-    "precio": "$ 28",
+    "precio": 28,
     "foto": "https://picsum.photos/300/200?Random=181",
     "stock": 10,
     
@@ -1797,7 +1797,7 @@ const productos =
     "marca": "Masion Alambra ",
     "nombre": "Jorge Di Profumo",
     "clon": "",
-    "precio": "$ 28",
+    "precio": 28,
     "foto": "https://picsum.photos/300/200?Random=182",
     "stock": 10,
     
@@ -1807,7 +1807,7 @@ const productos =
     "marca": "Masion Alambra ",
     "nombre": "Kingsman",
     "clon": "",
-    "precio": "$ 28",
+    "precio": 28,
     "foto": "https://picsum.photos/300/200?Random=183",
     "stock": 10,
     
@@ -1817,7 +1817,7 @@ const productos =
     "marca": "Masion Alambra ",
     "nombre": "La Voie",
     "clon": "",
-    "precio": "$ 28",
+    "precio": 28,
     "foto": "https://picsum.photos/300/200?Random=184",
     "stock": 10,
     
@@ -1827,7 +1827,7 @@ const productos =
     "marca": "Masion Alambra ",
     "nombre": "Monocline 02",
     "clon": "",
-    "precio": "$ 28",
+    "precio": 28,
     "foto": "https://picsum.photos/300/200?Random=185",
     "stock": 10,
     
@@ -1837,7 +1837,7 @@ const productos =
     "marca": "Masion Alambra ",
     "nombre": "Philos Rosso   ",
     "clon": "",
-    "precio": "$ 28",
+    "precio": 28,
     "foto": "https://picsum.photos/300/200?Random=186",
     "stock": 10,
     
@@ -1847,7 +1847,7 @@ const productos =
     "marca": "Masion Alambra ",
     "nombre": "Pink Shimeer",
     "clon": "",
-    "precio": "$ 28",
+    "precio": 28,
     "foto": "https://picsum.photos/300/200?Random=187",
     "stock": 10,
     
@@ -1857,7 +1857,7 @@ const productos =
     "marca": "Masion Alambra ",
     "nombre": "Pink Shimeer Intense",
     "clon": "",
-    "precio": "$ 28",
+    "precio": 28,
     "foto": "https://picsum.photos/300/200?Random=188",
     "stock": 10,
     
@@ -1867,7 +1867,7 @@ const productos =
     "marca": "Masion Alambra ",
     "nombre": "Victorioso",
     "clon": "",
-    "precio": "$ 28",
+    "precio": 28,
     "foto": "https://picsum.photos/300/200?Random=189",
     "stock": 10,
     
@@ -1877,7 +1877,7 @@ const productos =
     "marca": "Masion Alambra ",
     "nombre": "Victorioso Nero",
     "clon": "",
-    "precio": "$ 28",
+    "precio": 28,
     "foto": "https://picsum.photos/300/200?Random=190",
     "stock": 10,
     
@@ -1887,7 +1887,7 @@ const productos =
     "marca": "Masion Alambra ",
     "nombre": "Vivacite",
     "clon": "",
-    "precio": "$ 28",
+    "precio": 28,
     "foto": "https://picsum.photos/300/200?Random=191",
     "stock": 10,
     
@@ -1897,7 +1897,7 @@ const productos =
     "marca": "Masion Alambra ",
     "nombre": "Your Touch Men",
     "clon": "",
-    "precio": "$ 28",
+    "precio": 28,
     "foto": "https://picsum.photos/300/200?Random=192",
     "stock": 10,
     

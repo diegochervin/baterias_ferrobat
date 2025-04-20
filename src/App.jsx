@@ -27,7 +27,7 @@ function App() {
       const texto = busqueda.toLowerCase();
       filtrados = filtrados.filter(bat =>
         bat.marca.toLowerCase().includes(texto) ||
-        bat.modelo.toLowerCase().includes(texto)
+        bat.nombre.toLowerCase().includes(texto)
       );
     }
   
@@ -44,10 +44,10 @@ function App() {
     // Ordenamiento
     switch (orden) {
       case 'alfabetoAZ':
-        filtrados.sort((a, b) => a.modelo.localeCompare(b.modelo));
+        filtrados.sort((a, b) => a.nombre.localeCompare(b.nombre));
         break;
       case 'alfabetoZA':
-        filtrados.sort((a, b) => b.modelo.localeCompare(a.modelo));
+        filtrados.sort((a, b) => b.nombre.localeCompare(a.nombre));
         break;
       case 'preciomenor':
         filtrados.sort((a, b) => a.precio - b.precio);
