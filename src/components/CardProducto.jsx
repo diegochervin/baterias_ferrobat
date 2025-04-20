@@ -42,6 +42,11 @@ const CardProducto = ({ producto }) => {
               <strong>Clon:</strong> {producto.clon} <br />
             </>
           )}
+          {producto.tamano && (
+            <>
+              <strong>Tamaño:</strong> {producto.tamano} ML <br />
+            </>
+          )}
 
 {/* {producto.descripcion && (
             <>
