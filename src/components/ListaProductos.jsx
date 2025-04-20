@@ -11,13 +11,14 @@ const ListaProductos = ({ baterias: productos }) => {
           No se encontraron productos que coincidan con los filtros.
         </p>
       ) : (
-        <Row xs="auto" className="g-4">
-          {productos.map((producto) => (
-            <Col key={producto.id} style={{ flex: "0 0 auto" }}>
-              <CardProducto producto={producto} />
-            </Col>
-          ))}
-        </Row>
+        <Row xs={1} sm={2} md={3} lg={4} xl={5} className="g-4 justify-content-center">
+        {productos.map((producto) => (
+          <Col key={producto.id}>
+            <CardProducto producto={producto} />
+          </Col>
+        ))}
+      </Row>
+      
       )}
     </div>
   );

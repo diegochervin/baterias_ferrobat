@@ -14,15 +14,15 @@ const AsideFiltros = ({
   return (
     
     <aside
-  className="p-3 border-end"
-  style={{
-
-  }}
->
-      <h4 className="mb-3">🔎 Filtros</h4>
-
+    className="p-3 border-end d-flex flex-column"
+    style={{ gap: "1rem" }} // espacio entre secciones
+  >
+    <h4 className="mb-3">🔎 Filtros</h4>
+  
+    {/* Contenedor de filtros */}
+    <div className="d-flex flex-column" style={{ gap: "1rem" }}>
       {/* Búsqueda */}
-      <div className="mb-3">
+      <div>
         <label htmlFor="buscar" className="form-label">Buscar por marca o modelo</label>
         <input
           type="text"
@@ -33,9 +33,9 @@ const AsideFiltros = ({
           placeholder="Ej: Erba Pura..."
         />
       </div>
-
+  
       {/* Filtro por Marca */}
-      <div className="mb-3">
+      <div>
         <strong>Filtrar por Marca</strong>
         <div className="form-check">
           <input
@@ -66,9 +66,9 @@ const AsideFiltros = ({
           </div>
         ))}
       </div>
-
+  
       {/* Ordenamiento */}
-      <div className="mb-3">
+      <div>
         <strong>Ordenar por:</strong>
         {["alfabetoAZ", "alfabetoZA", "preciomenor", "preciomayor"].map((value, idx) => (
           <div className="form-check" key={idx}>
@@ -92,9 +92,9 @@ const AsideFiltros = ({
           </div>
         ))}
       </div>
-
+  
       {/* Filtro de Stock */}
-      <div className="mb-3">
+      <div>
         <strong>Stock:</strong>
         <div className="form-check">
           <input
@@ -121,8 +121,9 @@ const AsideFiltros = ({
           <label htmlFor="stockDisponible" className="form-check-label">Solo con stock</label>
         </div>
       </div>
-    </aside>
-  );
+    </div>
+  </aside>
+    );
 };
 
 export default AsideFiltros;

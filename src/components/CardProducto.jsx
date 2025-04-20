@@ -4,13 +4,15 @@ const CardProducto = ({ producto }) => {
 
   return (
     <Card
-      className="h-100 d-flex flex-column justify-content-between"
-      style={{
-        width: "300px",
-        minHeight: "400px",
-        maxHeight: "600px",
-      }}
-    >
+    className="h-100 d-flex flex-column justify-content-between"
+    style={{
+      width: "100%",
+      maxWidth: "300px",
+      minHeight: "400px",
+      maxHeight: "600px",
+    }}
+  >
+  
       <Card.Img
         variant="top"
         src={producto.foto}

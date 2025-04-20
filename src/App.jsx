@@ -1,16 +1,13 @@
-import { useState, useEffect, useMemo  } from 'react';
-import './App.css'
+import { useState, useEffect, useMemo } from 'react';
+import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import ListaProductos from './components/ListaProductos';
 import productosData from './data/productosListos';
-// import Footer from './components/Footer'
-import AsideFiltros from './components/AsideFiltros';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import { normalizarProductos } from './utils/normalizar';
-
-
-
-
+import Footer from './components/Footer';
+import Header from './components/Header';
+import Home from './components/Home';
+import Contact from './components/Contact';
+import Nav from './components/Nav'; // asegurate de tener este componente creado
 
 function App() {
   const [productos, setProductos] = useState([]);
@@ -18,11 +15,10 @@ function App() {
   const [filtroMarca, setFiltroMarca] = useState('');
   const [filtroStock, setFiltroStock] = useState('');
   const [orden, setOrden] = useState('');
-  
+  const [seccion, setSeccion] = useState('Inicio');
+
   const productosFiltrados = useMemo(() => {
     let filtrados = [...productos];
-  
-    // Buscar por texto
     if (busqueda.trim() !== '') {
       const texto = busqueda.toLowerCase();
       filtrados = filtrados.filter(bat =>
@@ -30,18 +26,15 @@ function App() {
         bat.nombre.toLowerCase().includes(texto)
       );
     }
-  
-    // Filtro por marca
+
     if (filtroMarca !== '') {
       filtrados = filtrados.filter(bat => bat.marca === filtroMarca);
     }
-  
-    // Filtro por stock
+
     if (filtroStock === 'S') {
       filtrados = filtrados.filter(bat => bat.stock > 0);
     }
-  
-    // Ordenamiento
+
     switch (orden) {
       case 'alfabetoAZ':
         filtrados.sort((a, b) => a.nombre.localeCompare(b.nombre));
@@ -58,14 +51,13 @@ function App() {
       default:
         break;
     }
-  
+
     return filtrados;
   }, [productos, busqueda, filtroMarca, filtroStock, orden]);
-  
 
   useEffect(() => {
     const bateriasNormalizadas = normalizarProductos(productosData);
-  setProductos(bateriasNormalizadas);
+    setProductos(bateriasNormalizadas);
   }, []);
 
   const marcas = useMemo(() => {
@@ -73,20 +65,13 @@ function App() {
     return [...new Set(todas)].sort();
   }, [productos]);
 
-  
   return (
-    <div className="App container mt-4">
-      <div className="d-flex" style={{ width: '100%' }}>
-        {/* Aside con ancho fijo */}
-        <aside
-          className="border-end"
-          style={{
-            width: '300px',
-            minWidth: '300px',
-            flexShrink: 0,
-          }}
-        >
-          <AsideFiltros
+    <div className="d-flex flex-column min-vh-100">
+      <Header />
+      <Nav items={["Inicio", "Contacto"]} onSeleccion={setSeccion} />
+      <main className="flex-grow-1 p-3">
+        {seccion === "Inicio" && (
+          <Home
             marcas={marcas}
             busqueda={busqueda}
             setBusqueda={setBusqueda}
@@ -96,20 +81,14 @@ function App() {
             setFiltroStock={setFiltroStock}
             orden={orden}
             setOrden={setOrden}
+            productosFiltrados={productosFiltrados}
           />
-        </aside>
-  
-        {/* Contenedor de tarjetas que ocupa el resto del espacio */}
-        <div className="flex-grow-1 " style={{ overflow: 'hidden' }}>
-          <ListaProductos baterias={productosFiltrados} />
-        </div>
-      </div>
-  
-      {/* <Footer /> */}
+        )}
+        {seccion === "Contacto" && <Contact />}
+      </main>
+      <Footer />
     </div>
   );
-  
-  
 }
 
 export default App;

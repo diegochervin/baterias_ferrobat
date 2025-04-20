@@ -1,7 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* importante para evitar scroll horizontal */
+}
+
 .App {
   min-height: 100vh;
-  min-width: 100vw;
   display: flex;
   flex-direction: column;
+}
+
+.container-fluid,
+.container {
+  padding: 0 !important;
+}
+
+main {
+  min-height: 70vh; /* altura mínima del contenido principal */
+  width: 100vw;      /* no hace falta min-width si ya forzás 100vw */
+  padding: 300px;     /* falta la unidad */
+  box-sizing: border-box; /* asegura que el padding no sume al ancho total */
 }
 
