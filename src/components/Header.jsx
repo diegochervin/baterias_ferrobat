@@ -7,7 +7,7 @@ function Header({ usuario, tipo }) {
         <div className="container-fluid">
      
       <Navbar.Brand>Ethereal Parfums</Navbar.Brand>
-      <Navbar.Text className="ms-auto text-white">
+      <Navbar.Text className="ms-auto text-white px-3">
         {/* {tipo} - {usuario} */}
         HOLA
       </Navbar.Text>
