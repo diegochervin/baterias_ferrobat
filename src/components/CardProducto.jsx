@@ -1,8 +1,6 @@
 import { Card, Button } from "react-bootstrap";
 
 const CardProducto = ({ producto }) => {
-  // Campos que no queremos mostrar como propiedad dinámica
-  const camposIgnorados = ["id", "foto", "precio"]; // Ignoramos estos campos
 
   return (
     <Card
@@ -36,7 +34,7 @@ const CardProducto = ({ producto }) => {
           <strong>Precio:</strong>{" "}
           <span className="text-danger fw-bold">U$S {producto.precio}</span> <br />
 
-          {/* Mostrar el campo "Clon" solo si tiene un valor */}
+          {/* Mostrar el campo solo si tiene un valor */}
           {producto.clon && (
             <>
               <strong>Clon:</strong> {producto.clon} <br />
@@ -48,14 +46,6 @@ const CardProducto = ({ producto }) => {
             </>
           )}
 
-{/* {producto.descripcion && (
-            <>
-              <strong>descripcion:</strong> {producto.descripcion} <br />
-            </>
-          )} */}
-
-
-          {/* Aquí podrías mostrar otro campo, por ejemplo, stock */}
           <strong>Stock:</strong> {producto.stock || "No disponible"} <br />
         </Card.Text>
 

@@ -1,5 +1,3 @@
-// utils/normalizar.js
-
 // Normaliza una sola propiedad de texto (capitaliza y limpia espacios)
 const normalizarTexto = (texto) => {
     if (!texto || typeof texto !== "string") return "";
