@@ -1,17 +1,17 @@
 import React from 'react';
-import { Navbar } from 'react-bootstrap';
+import { Navbar, Container } from 'react-bootstrap';
+import Nav from './Nav';
 
-function Header({ usuario, tipo }) {
+function Header({  navItems, onSeleccion }) {
   return (
     <Navbar bg="dark" variant="dark" className="px-3">
-        <div className="container-fluid">
-     
-      <Navbar.Brand>Ethereal Parfums</Navbar.Brand>
-      <Navbar.Text className="ms-auto text-white px-3">
-        {/* {tipo} - {usuario} */}
-        HOLA
-      </Navbar.Text>
-    </div>
+      <Container fluid>
+        <Navbar.Brand>Ethereal Parfums</Navbar.Brand>
+        <div className="ms-auto">
+        <Nav items={["Iniciar Sesion", "Registrate"]} onSeleccion={() => {}} dark />
+
+        </div>
+      </Container>
     </Navbar>
   );
 }

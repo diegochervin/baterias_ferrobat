@@ -67,8 +67,12 @@ function App() {
 
   return (
     <div className="d-flex flex-column min-vh-100">
-      <Header />
+      <Header
+      />
+      
+      {/* Menú de navegación general */}
       <Nav items={["Inicio", "Contacto"]} onSeleccion={setSeccion} />
+  
       <main className="flex-grow-1 p-3">
         {seccion === "Inicio" && (
           <Home
@@ -86,6 +90,7 @@ function App() {
         )}
         {seccion === "Contacto" && <Contact />}
       </main>
+  
       <Footer />
     </div>
   );
